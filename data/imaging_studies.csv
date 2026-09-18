@@ -1,501 +1,501 @@
-study_id,study_date,modality,body_part,site,ai_eligible,ai_processed,ai_result_available,ai_error,study_start_time,ai_start_time,ai_result_time,study_complete_time,radiologist_used_ai
-ST00001,2026-03-04,CT,Abdomen,Central Hospital,True,True,True,False,2026-03-04 01:58:20,2026-03-04 02:01:20,2026-03-04 02:13:20,2026-03-04 05:42:20,False
-ST00002,2026-02-27,CT,Chest,South Imaging Center,True,True,True,False,2026-02-27 07:56:50,2026-02-27 08:00:50,2026-02-27 08:02:50,2026-02-27 10:54:50,True
-ST00003,2026-03-10,MRI,Head,South Imaging Center,True,True,True,False,2026-03-10 02:12:20,2026-03-10 02:17:20,2026-03-10 02:19:20,2026-03-10 06:01:20,False
-ST00004,2026-02-11,CT,Head,North Clinic,True,True,True,False,2026-02-11 00:45:46,2026-02-11 00:51:46,2026-02-11 00:59:46,2026-02-11 01:44:46,True
-ST00005,2026-02-28,CT,Chest,South Imaging Center,True,True,True,False,2026-02-28 14:47:01,2026-02-28 14:56:01,2026-02-28 15:04:01,2026-02-28 15:42:01,True
-ST00006,2026-03-02,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-03-02 01:15:19,,,2026-03-02 04:17:19,False
-ST00007,2026-03-10,CT,Head,North Clinic,True,True,True,False,2026-03-10 09:46:16,2026-03-10 09:48:16,2026-03-10 10:03:16,2026-03-10 10:46:16,True
-ST00008,2026-03-03,X-ray,Head,North Clinic,False,False,False,False,2026-03-03 17:15:07,,,2026-03-03 19:24:07,False
-ST00009,2026-01-21,MRI,Chest,North Clinic,True,True,True,False,2026-01-21 08:11:12,2026-01-21 08:14:12,2026-01-21 08:19:12,2026-01-21 09:27:12,True
-ST00010,2026-03-31,MRI,Extremity,South Imaging Center,False,False,False,False,2026-03-31 20:19:03,,,2026-03-31 21:50:03,False
-ST00011,2026-02-01,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-01 11:38:00,,,2026-02-01 13:11:00,False
-ST00012,2026-03-20,CT,Abdomen,North Clinic,True,True,True,False,2026-03-20 03:53:33,2026-03-20 04:03:33,2026-03-20 04:10:33,2026-03-20 05:22:33,True
-ST00013,2026-03-27,Ultrasound,Spine,North Clinic,False,False,False,False,2026-03-27 21:27:40,,,2026-03-27 22:38:40,False
-ST00014,2026-01-14,CT,Extremity,North Clinic,False,False,False,False,2026-01-14 13:21:44,,,2026-01-14 16:13:44,False
-ST00015,2026-03-14,MRI,Extremity,North Clinic,False,False,False,False,2026-03-14 12:40:06,,,2026-03-14 14:57:06,False
-ST00016,2026-01-22,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-22 07:03:15,,,2026-01-22 09:48:15,False
-ST00017,2026-01-09,X-ray,Chest,South Imaging Center,False,False,False,False,2026-01-09 19:50:03,,,2026-01-09 21:04:03,False
-ST00018,2026-01-16,X-ray,Spine,Central Hospital,False,False,False,False,2026-01-16 12:47:06,,,2026-01-16 15:54:06,False
-ST00019,2026-02-07,CT,Spine,North Clinic,False,False,False,False,2026-02-07 08:34:22,,,2026-02-07 11:24:22,False
-ST00020,2026-02-23,X-ray,Chest,South Imaging Center,False,False,False,False,2026-02-23 17:06:35,,,2026-02-23 20:35:35,False
-ST00021,2026-01-12,MRI,Extremity,North Clinic,False,False,False,False,2026-01-12 02:55:29,,,2026-01-12 06:42:29,False
-ST00022,2026-03-16,MRI,Chest,South Imaging Center,True,True,True,False,2026-03-16 14:57:53,2026-03-16 15:00:53,2026-03-16 15:13:53,2026-03-16 18:36:53,True
-ST00023,2026-03-15,CT,Chest,South Imaging Center,True,False,False,False,2026-03-15 23:30:02,,,2026-03-16 01:21:02,False
-ST00024,2026-02-19,MRI,Head,South Imaging Center,True,True,True,False,2026-02-19 06:56:24,2026-02-19 06:59:24,2026-02-19 07:13:24,2026-02-19 09:46:24,False
-ST00025,2026-02-01,MRI,Chest,Central Hospital,True,False,False,False,2026-02-01 11:20:18,,,2026-02-01 13:13:18,False
-ST00026,2026-01-06,CT,Extremity,Central Hospital,False,False,False,False,2026-01-06 14:58:31,,,2026-01-06 15:53:31,False
-ST00027,2026-03-13,MRI,Chest,Central Hospital,True,False,False,False,2026-03-13 01:28:05,,,2026-03-13 04:19:05,False
-ST00028,2026-01-13,MRI,Extremity,North Clinic,False,False,False,False,2026-01-13 11:10:25,,,2026-01-13 12:27:25,False
-ST00029,2026-02-21,X-ray,Spine,South Imaging Center,False,False,False,False,2026-02-21 05:34:08,,,2026-02-21 07:03:08,False
-ST00030,2026-03-15,X-ray,Head,North Clinic,False,False,False,False,2026-03-15 07:53:43,,,2026-03-15 11:30:43,False
-ST00031,2026-02-08,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-02-08 17:43:09,,,2026-02-08 20:10:09,False
-ST00032,2026-02-13,CT,Head,Central Hospital,True,True,True,False,2026-02-13 20:02:20,2026-02-13 20:03:20,2026-02-13 20:08:20,2026-02-13 23:07:20,True
-ST00033,2026-03-10,MRI,Head,South Imaging Center,True,True,True,False,2026-03-10 17:23:20,2026-03-10 17:24:20,2026-03-10 17:27:20,2026-03-10 20:09:20,True
-ST00034,2026-02-17,CT,Head,North Clinic,True,True,True,False,2026-02-17 03:05:51,2026-02-17 03:15:51,2026-02-17 03:20:51,2026-02-17 07:00:51,True
-ST00035,2026-01-19,CT,Spine,North Clinic,False,False,False,False,2026-01-19 11:41:14,,,2026-01-19 13:46:14,False
-ST00036,2026-02-09,MRI,Chest,Central Hospital,True,True,True,False,2026-02-09 21:56:15,2026-02-09 22:07:15,2026-02-09 22:15:15,2026-02-10 01:37:15,True
-ST00037,2026-01-25,CT,Extremity,Central Hospital,False,False,False,False,2026-01-25 03:24:40,,,2026-01-25 05:53:40,False
-ST00038,2026-02-10,CT,Spine,Central Hospital,False,False,False,False,2026-02-10 23:03:19,,,2026-02-11 00:41:19,False
-ST00039,2026-02-13,X-ray,Extremity,Central Hospital,False,False,False,False,2026-02-13 00:34:10,,,2026-02-13 01:34:10,False
-ST00040,2026-03-05,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-03-05 07:36:27,,,2026-03-05 08:34:27,False
-ST00041,2026-01-17,CT,Spine,North Clinic,False,False,False,False,2026-01-17 03:31:58,,,2026-01-17 05:00:58,False
-ST00042,2026-03-29,CT,Spine,North Clinic,False,False,False,False,2026-03-29 14:50:39,,,2026-03-29 15:25:39,False
-ST00043,2026-01-26,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-26 17:58:04,,,2026-01-26 19:46:04,False
-ST00044,2026-03-09,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-09 15:10:33,,,2026-03-09 18:34:33,False
-ST00045,2026-02-17,CT,Abdomen,Central Hospital,True,True,True,False,2026-02-17 06:01:35,2026-02-17 06:02:35,2026-02-17 06:12:35,2026-02-17 06:51:35,False
-ST00046,2026-01-05,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-05 20:50:24,,,2026-01-05 23:40:24,False
-ST00047,2026-01-06,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-01-06 12:32:20,,,2026-01-06 13:54:20,False
-ST00048,2026-02-27,CT,Head,North Clinic,True,True,True,False,2026-02-27 18:31:56,2026-02-27 18:41:56,2026-02-27 18:52:56,2026-02-27 19:16:56,True
-ST00049,2026-03-05,MRI,Extremity,North Clinic,False,False,False,False,2026-03-05 19:47:25,,,2026-03-05 21:42:25,False
-ST00050,2026-01-20,MRI,Abdomen,Central Hospital,True,True,True,False,2026-01-20 19:57:30,2026-01-20 20:04:30,2026-01-20 20:16:30,2026-01-20 21:48:30,True
-ST00051,2026-01-01,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-01 21:42:23,,,2026-01-01 22:42:23,False
-ST00052,2026-02-22,CT,Abdomen,North Clinic,True,True,True,False,2026-02-22 04:46:44,2026-02-22 04:52:44,2026-02-22 04:57:44,2026-02-22 06:55:44,True
-ST00053,2026-03-22,MRI,Abdomen,South Imaging Center,True,True,True,False,2026-03-22 22:45:59,2026-03-22 22:56:59,2026-03-22 23:08:59,2026-03-23 01:41:59,True
-ST00054,2026-01-11,Ultrasound,Head,Central Hospital,False,False,False,False,2026-01-11 01:22:26,,,2026-01-11 03:04:26,False
-ST00055,2026-03-28,CT,Extremity,North Clinic,False,False,False,False,2026-03-28 09:10:51,,,2026-03-28 10:24:51,False
-ST00056,2026-01-28,MRI,Abdomen,Central Hospital,True,True,True,False,2026-01-28 08:32:22,2026-01-28 08:43:22,2026-01-28 08:53:22,2026-01-28 11:12:22,True
-ST00057,2026-01-09,MRI,Abdomen,North Clinic,True,True,True,False,2026-01-09 23:04:15,2026-01-09 23:10:15,2026-01-09 23:22:15,2026-01-10 00:46:15,True
-ST00058,2026-02-23,X-ray,Extremity,Central Hospital,False,False,False,False,2026-02-23 13:30:30,,,2026-02-23 14:07:30,False
-ST00059,2026-01-08,Ultrasound,Head,Central Hospital,False,False,False,False,2026-01-08 07:19:51,,,2026-01-08 10:13:51,False
-ST00060,2026-03-23,CT,Extremity,North Clinic,False,False,False,False,2026-03-23 00:44:50,,,2026-03-23 01:56:50,False
-ST00061,2026-01-13,CT,Abdomen,Central Hospital,True,False,False,False,2026-01-13 08:58:10,,,2026-01-13 12:56:10,False
-ST00062,2026-03-29,CT,Head,South Imaging Center,True,True,True,False,2026-03-29 06:38:46,2026-03-29 06:44:46,2026-03-29 06:59:46,2026-03-29 08:57:46,False
-ST00063,2026-01-16,Ultrasound,Head,Central Hospital,False,False,False,False,2026-01-16 00:08:07,,,2026-01-16 01:24:07,False
-ST00064,2026-03-27,CT,Head,South Imaging Center,True,True,True,False,2026-03-27 13:50:55,2026-03-27 13:56:55,2026-03-27 14:04:55,2026-03-27 17:50:55,True
-ST00065,2026-03-20,CT,Head,North Clinic,True,True,True,False,2026-03-20 17:10:58,2026-03-20 17:12:58,2026-03-20 17:14:58,2026-03-20 19:45:58,True
-ST00066,2026-02-03,CT,Head,North Clinic,True,True,True,False,2026-02-03 22:45:47,2026-02-03 22:56:47,2026-02-03 23:03:47,2026-02-04 00:31:47,False
-ST00067,2026-02-04,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-04 02:13:47,,,2026-02-04 05:41:47,False
-ST00068,2026-02-02,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-02 03:38:06,,,2026-02-02 05:19:06,False
-ST00069,2026-02-26,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-02-26 08:52:19,,,2026-02-26 09:36:19,False
-ST00070,2026-02-27,CT,Abdomen,South Imaging Center,True,True,True,False,2026-02-27 22:06:42,2026-02-27 22:15:42,2026-02-27 22:26:42,2026-02-27 23:29:42,True
-ST00071,2026-02-12,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-12 08:05:15,,,2026-02-12 11:35:15,False
-ST00072,2026-03-14,X-ray,Head,North Clinic,False,False,False,False,2026-03-14 00:52:08,,,2026-03-14 03:00:08,False
-ST00073,2026-01-07,Ultrasound,Abdomen,North Clinic,False,False,False,False,2026-01-07 19:03:02,,,2026-01-07 22:17:02,False
-ST00074,2026-03-06,X-ray,Abdomen,North Clinic,False,False,False,False,2026-03-06 09:48:17,,,2026-03-06 12:32:17,False
-ST00075,2026-03-06,CT,Spine,North Clinic,False,False,False,False,2026-03-06 17:58:23,,,2026-03-06 21:31:23,False
-ST00076,2026-02-23,CT,Spine,North Clinic,False,False,False,False,2026-02-23 19:52:28,,,2026-02-23 23:17:28,False
-ST00077,2026-03-07,X-ray,Head,South Imaging Center,False,False,False,False,2026-03-07 18:15:54,,,2026-03-07 21:27:54,False
-ST00078,2026-01-30,CT,Chest,North Clinic,True,True,True,False,2026-01-30 05:15:50,2026-01-30 05:19:50,2026-01-30 05:30:50,2026-01-30 08:25:50,True
-ST00079,2026-02-12,CT,Head,South Imaging Center,True,True,True,False,2026-02-12 21:26:09,2026-02-12 21:38:09,2026-02-12 21:41:09,2026-02-12 23:13:09,True
-ST00080,2026-03-02,CT,Head,North Clinic,True,True,True,False,2026-03-02 02:58:56,2026-03-02 03:02:56,2026-03-02 03:06:56,2026-03-02 03:39:56,True
-ST00081,2026-03-01,X-ray,Chest,North Clinic,False,False,False,False,2026-03-01 08:22:17,,,2026-03-01 10:53:17,False
-ST00082,2026-03-28,MRI,Head,Central Hospital,True,True,True,False,2026-03-28 00:50:55,2026-03-28 00:57:55,2026-03-28 01:02:55,2026-03-28 02:02:55,True
-ST00083,2026-03-28,X-ray,Chest,North Clinic,False,False,False,False,2026-03-28 16:02:53,,,2026-03-28 19:56:53,False
-ST00084,2026-01-22,CT,Extremity,Central Hospital,False,False,False,False,2026-01-22 05:56:12,,,2026-01-22 08:29:12,False
-ST00085,2026-02-24,CT,Chest,North Clinic,True,True,True,False,2026-02-24 02:50:58,2026-02-24 02:58:58,2026-02-24 03:08:58,2026-02-24 05:57:58,True
-ST00086,2026-03-01,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-03-01 11:35:00,,,2026-03-01 13:59:00,False
-ST00087,2026-02-13,X-ray,Spine,North Clinic,False,False,False,False,2026-02-13 07:03:14,,,2026-02-13 09:33:14,False
-ST00088,2026-03-14,CT,Abdomen,South Imaging Center,True,True,True,False,2026-03-14 23:46:00,2026-03-14 23:55:00,2026-03-15 00:00:00,2026-03-15 01:31:00,True
-ST00089,2026-01-28,CT,Abdomen,Central Hospital,True,True,True,False,2026-01-28 17:47:41,2026-01-28 17:56:41,2026-01-28 18:00:41,2026-01-28 19:21:41,True
-ST00090,2026-03-10,CT,Spine,North Clinic,False,False,False,False,2026-03-10 14:04:33,,,2026-03-10 16:23:33,False
-ST00091,2026-02-22,MRI,Chest,Central Hospital,True,True,True,False,2026-02-22 16:22:32,2026-02-22 16:29:32,2026-02-22 16:43:32,2026-02-22 19:26:32,False
-ST00092,2026-03-25,X-ray,Extremity,North Clinic,False,False,False,False,2026-03-25 04:19:49,,,2026-03-25 06:31:49,False
-ST00093,2026-01-01,Ultrasound,Abdomen,North Clinic,False,False,False,False,2026-01-01 13:44:19,,,2026-01-01 17:31:19,False
-ST00094,2026-03-24,X-ray,Spine,South Imaging Center,False,False,False,False,2026-03-24 20:40:40,,,2026-03-24 23:32:40,False
-ST00095,2026-03-13,MRI,Extremity,North Clinic,False,False,False,False,2026-03-13 07:49:17,,,2026-03-13 09:20:17,False
-ST00096,2026-01-22,CT,Spine,North Clinic,False,False,False,False,2026-01-22 07:17:22,,,2026-01-22 07:59:22,False
-ST00097,2026-02-02,MRI,Spine,Central Hospital,False,False,False,False,2026-02-02 15:14:18,,,2026-02-02 18:54:18,False
-ST00098,2026-03-23,MRI,Head,Central Hospital,True,False,False,False,2026-03-23 14:31:12,,,2026-03-23 17:22:12,False
-ST00099,2026-03-30,CT,Extremity,Central Hospital,False,False,False,False,2026-03-30 01:17:50,,,2026-03-30 04:41:50,False
-ST00100,2026-01-09,MRI,Head,Central Hospital,True,False,False,False,2026-01-09 03:36:42,,,2026-01-09 04:57:42,False
-ST00101,2026-01-26,CT,Head,North Clinic,True,True,True,False,2026-01-26 06:12:29,2026-01-26 06:18:29,2026-01-26 06:26:29,2026-01-26 07:58:29,False
-ST00102,2026-01-25,X-ray,Spine,South Imaging Center,False,False,False,False,2026-01-25 11:50:06,,,2026-01-25 12:29:06,False
-ST00103,2026-02-22,CT,Abdomen,Central Hospital,True,True,True,False,2026-02-22 08:56:14,2026-02-22 08:58:14,2026-02-22 09:10:14,2026-02-22 09:41:14,False
-ST00104,2026-01-20,X-ray,Extremity,Central Hospital,False,False,False,False,2026-01-20 08:32:38,,,2026-01-20 09:46:38,False
-ST00105,2026-01-13,MRI,Chest,South Imaging Center,True,True,True,False,2026-01-13 06:06:58,2026-01-13 06:10:58,2026-01-13 06:16:58,2026-01-13 09:57:58,True
-ST00106,2026-02-28,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-28 22:59:21,,,2026-03-01 02:53:21,False
-ST00107,2026-01-31,CT,Chest,South Imaging Center,True,False,False,False,2026-01-31 04:46:23,,,2026-01-31 07:48:23,False
-ST00108,2026-03-30,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-03-30 03:51:15,,,2026-03-30 07:29:15,False
-ST00109,2026-01-08,MRI,Head,South Imaging Center,True,True,True,False,2026-01-08 09:05:04,2026-01-08 09:10:04,2026-01-08 09:21:04,2026-01-08 10:10:04,False
-ST00110,2026-03-17,CT,Extremity,South Imaging Center,False,False,False,False,2026-03-17 23:40:21,,,2026-03-18 02:04:21,False
-ST00111,2026-02-05,CT,Abdomen,South Imaging Center,True,True,True,False,2026-02-05 23:29:33,2026-02-05 23:36:33,2026-02-05 23:39:33,2026-02-06 01:54:33,False
-ST00112,2026-03-28,X-ray,Head,Central Hospital,False,False,False,False,2026-03-28 13:31:13,,,2026-03-28 15:57:13,False
-ST00113,2026-03-13,MRI,Abdomen,South Imaging Center,True,True,True,False,2026-03-13 05:52:01,2026-03-13 06:01:01,2026-03-13 06:10:01,2026-03-13 08:18:01,False
-ST00114,2026-01-27,CT,Head,North Clinic,True,False,False,False,2026-01-27 01:24:24,,,2026-01-27 02:21:24,False
-ST00115,2026-03-27,MRI,Spine,South Imaging Center,False,False,False,False,2026-03-27 14:20:58,,,2026-03-27 17:20:58,False
-ST00116,2026-03-06,CT,Chest,North Clinic,True,True,True,False,2026-03-06 20:59:31,2026-03-06 21:05:31,2026-03-06 21:10:31,2026-03-06 23:04:31,False
-ST00117,2026-01-28,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-01-28 03:39:05,,,2026-01-28 06:36:05,False
-ST00118,2026-02-20,Ultrasound,Chest,South Imaging Center,False,False,False,False,2026-02-20 03:49:43,,,2026-02-20 05:25:43,False
-ST00119,2026-02-09,MRI,Head,North Clinic,True,True,True,False,2026-02-09 11:02:46,2026-02-09 11:13:46,2026-02-09 11:22:46,2026-02-09 14:59:46,True
-ST00120,2026-01-22,CT,Head,South Imaging Center,True,True,True,False,2026-01-22 12:21:25,2026-01-22 12:31:25,2026-01-22 12:41:25,2026-01-22 15:11:25,True
-ST00121,2026-02-23,CT,Spine,North Clinic,False,False,False,False,2026-02-23 10:29:53,,,2026-02-23 12:13:53,False
-ST00122,2026-01-25,CT,Head,Central Hospital,True,True,True,False,2026-01-25 09:48:46,2026-01-25 10:00:46,2026-01-25 10:14:46,2026-01-25 13:19:46,True
-ST00123,2026-03-13,MRI,Extremity,South Imaging Center,False,False,False,False,2026-03-13 17:04:24,,,2026-03-13 20:53:24,False
-ST00124,2026-02-27,CT,Chest,Central Hospital,True,False,False,False,2026-02-27 22:37:23,,,2026-02-28 00:27:23,False
-ST00125,2026-02-05,CT,Chest,Central Hospital,True,True,True,False,2026-02-05 00:54:49,2026-02-05 00:57:49,2026-02-05 00:59:49,2026-02-05 03:50:49,True
-ST00126,2026-03-03,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-03 22:20:38,,,2026-03-03 23:21:38,False
-ST00127,2026-02-25,CT,Spine,North Clinic,False,False,False,False,2026-02-25 17:39:59,,,2026-02-25 20:06:59,False
-ST00128,2026-01-18,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-01-18 21:35:54,,,2026-01-19 00:12:54,False
-ST00129,2026-03-21,CT,Spine,South Imaging Center,False,False,False,False,2026-03-21 19:40:05,,,2026-03-21 20:33:05,False
-ST00130,2026-03-03,MRI,Head,North Clinic,True,True,True,False,2026-03-03 02:42:53,2026-03-03 02:52:53,2026-03-03 02:55:53,2026-03-03 04:20:53,True
-ST00131,2026-02-28,MRI,Extremity,South Imaging Center,False,False,False,False,2026-02-28 20:49:21,,,2026-02-28 22:21:21,False
-ST00132,2026-02-06,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-06 22:20:42,,,2026-02-07 00:11:42,False
-ST00133,2026-02-11,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-11 15:14:45,,,2026-02-11 16:04:45,False
-ST00134,2026-03-13,CT,Head,Central Hospital,True,True,True,False,2026-03-13 20:31:59,2026-03-13 20:36:59,2026-03-13 20:40:59,2026-03-13 22:07:59,True
-ST00135,2026-01-16,CT,Spine,South Imaging Center,False,False,False,False,2026-01-16 04:44:50,,,2026-01-16 08:15:50,False
-ST00136,2026-02-15,CT,Head,North Clinic,True,True,True,False,2026-02-15 14:58:31,2026-02-15 15:03:31,2026-02-15 15:12:31,2026-02-15 15:51:31,True
-ST00137,2026-03-18,X-ray,Extremity,Central Hospital,False,False,False,False,2026-03-18 11:46:20,,,2026-03-18 15:10:20,False
-ST00138,2026-02-11,CT,Head,North Clinic,True,True,True,False,2026-02-11 06:38:44,2026-02-11 06:43:44,2026-02-11 06:46:44,2026-02-11 07:28:44,True
-ST00139,2026-02-27,X-ray,Extremity,North Clinic,False,False,False,False,2026-02-27 18:33:11,,,2026-02-27 20:21:11,False
-ST00140,2026-01-13,MRI,Abdomen,Central Hospital,True,True,True,False,2026-01-13 01:45:54,2026-01-13 01:50:54,2026-01-13 01:59:54,2026-01-13 04:12:54,True
-ST00141,2026-03-28,CT,Abdomen,Central Hospital,True,True,True,False,2026-03-28 08:30:19,2026-03-28 08:31:19,2026-03-28 08:43:19,2026-03-28 11:32:19,True
-ST00142,2026-03-16,MRI,Abdomen,Central Hospital,True,True,True,False,2026-03-16 06:01:15,2026-03-16 06:04:15,2026-03-16 06:16:15,2026-03-16 08:29:15,False
-ST00143,2026-02-26,CT,Spine,North Clinic,False,False,False,False,2026-02-26 19:55:00,,,2026-02-26 20:53:00,False
-ST00144,2026-02-03,CT,Abdomen,North Clinic,True,True,True,False,2026-02-03 18:48:28,2026-02-03 18:51:28,2026-02-03 19:04:28,2026-02-03 21:29:28,True
-ST00145,2026-03-20,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-20 23:44:46,,,2026-03-21 02:15:46,False
-ST00146,2026-01-31,CT,Chest,South Imaging Center,True,False,False,False,2026-01-31 12:52:41,,,2026-01-31 15:10:41,False
-ST00147,2026-03-22,Ultrasound,Extremity,North Clinic,False,False,False,False,2026-03-22 02:13:10,,,2026-03-22 04:46:10,False
-ST00148,2026-01-06,CT,Abdomen,South Imaging Center,True,True,True,False,2026-01-06 06:18:16,2026-01-06 06:26:16,2026-01-06 06:40:16,2026-01-06 07:06:16,True
-ST00149,2026-01-13,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-13 17:16:58,,,2026-01-13 20:49:58,False
-ST00150,2026-01-12,CT,Extremity,Central Hospital,False,False,False,False,2026-01-12 18:56:35,,,2026-01-12 22:55:35,False
-ST00151,2026-03-10,CT,Extremity,South Imaging Center,False,False,False,False,2026-03-10 21:54:49,,,2026-03-10 22:32:49,False
-ST00152,2026-02-09,CT,Chest,North Clinic,True,True,True,False,2026-02-09 14:41:13,2026-02-09 14:43:13,2026-02-09 14:47:13,2026-02-09 17:23:13,False
-ST00153,2026-02-19,X-ray,Spine,North Clinic,False,False,False,False,2026-02-19 09:45:27,,,2026-02-19 12:23:27,False
-ST00154,2026-01-24,MRI,Head,North Clinic,True,True,True,False,2026-01-24 15:56:03,2026-01-24 16:06:03,2026-01-24 16:10:03,2026-01-24 16:48:03,True
-ST00155,2026-02-02,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-02-02 23:58:00,,,2026-02-03 01:41:00,False
-ST00156,2026-01-28,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-28 11:03:45,,,2026-01-28 14:06:45,False
-ST00157,2026-02-17,X-ray,Spine,North Clinic,False,False,False,False,2026-02-17 12:56:40,,,2026-02-17 15:48:40,False
-ST00158,2026-02-03,CT,Extremity,North Clinic,False,False,False,False,2026-02-03 12:11:49,,,2026-02-03 14:22:49,False
-ST00159,2026-02-01,X-ray,Head,North Clinic,False,False,False,False,2026-02-01 05:47:44,,,2026-02-01 08:48:44,False
-ST00160,2026-01-23,X-ray,Spine,North Clinic,False,False,False,False,2026-01-23 16:14:23,,,2026-01-23 17:00:23,False
-ST00161,2026-03-14,MRI,Spine,South Imaging Center,False,False,False,False,2026-03-14 07:17:19,,,2026-03-14 09:30:19,False
-ST00162,2026-03-18,X-ray,Head,Central Hospital,False,False,False,False,2026-03-18 22:24:39,,,2026-03-19 01:05:39,False
-ST00163,2026-01-13,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-13 06:10:30,,,2026-01-13 08:09:30,False
-ST00164,2026-03-26,X-ray,Chest,North Clinic,False,False,False,False,2026-03-26 21:00:40,,,2026-03-26 23:49:40,False
-ST00165,2026-01-02,X-ray,Spine,Central Hospital,False,False,False,False,2026-01-02 11:45:44,,,2026-01-02 15:07:44,False
-ST00166,2026-01-08,MRI,Abdomen,South Imaging Center,True,True,True,False,2026-01-08 06:21:44,2026-01-08 06:33:44,2026-01-08 06:36:44,2026-01-08 08:20:44,False
-ST00167,2026-02-06,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-02-06 21:29:09,,,2026-02-07 00:22:09,False
-ST00168,2026-03-01,CT,Abdomen,Central Hospital,True,False,False,False,2026-03-01 22:47:05,,,2026-03-02 02:33:05,False
-ST00169,2026-02-12,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-12 03:13:36,,,2026-02-12 05:41:36,False
-ST00170,2026-03-09,CT,Chest,South Imaging Center,True,True,True,False,2026-03-09 09:08:23,2026-03-09 09:09:23,2026-03-09 09:16:23,2026-03-09 11:33:23,True
-ST00171,2026-02-10,MRI,Head,North Clinic,True,True,True,False,2026-02-10 00:09:00,2026-02-10 00:11:00,2026-02-10 00:19:00,2026-02-10 03:22:00,True
-ST00172,2026-03-30,MRI,Head,North Clinic,True,True,True,False,2026-03-30 15:02:44,2026-03-30 15:07:44,2026-03-30 15:19:44,2026-03-30 15:39:44,False
-ST00173,2026-03-29,CT,Extremity,Central Hospital,False,False,False,False,2026-03-29 11:58:12,,,2026-03-29 13:13:12,False
-ST00174,2026-02-12,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-02-12 21:18:17,,,2026-02-12 23:09:17,False
-ST00175,2026-02-11,MRI,Spine,Central Hospital,False,False,False,False,2026-02-11 04:42:41,,,2026-02-11 06:34:41,False
-ST00176,2026-02-07,X-ray,Chest,North Clinic,False,False,False,False,2026-02-07 08:24:00,,,2026-02-07 09:59:00,False
-ST00177,2026-02-25,CT,Abdomen,Central Hospital,True,False,False,False,2026-02-25 12:40:35,,,2026-02-25 14:30:35,False
-ST00178,2026-03-22,MRI,Abdomen,North Clinic,True,True,True,False,2026-03-22 14:07:39,2026-03-22 14:18:39,2026-03-22 14:20:39,2026-03-22 17:17:39,False
-ST00179,2026-03-17,X-ray,Extremity,North Clinic,False,False,False,False,2026-03-17 07:36:26,,,2026-03-17 11:36:26,False
-ST00180,2026-01-22,MRI,Extremity,South Imaging Center,False,False,False,False,2026-01-22 06:19:03,,,2026-01-22 07:58:03,False
-ST00181,2026-03-15,X-ray,Head,Central Hospital,False,False,False,False,2026-03-15 08:37:21,,,2026-03-15 11:52:21,False
-ST00182,2026-03-29,MRI,Chest,South Imaging Center,True,True,False,True,2026-03-29 17:04:59,2026-03-29 17:12:59,,2026-03-29 19:12:59,False
-ST00183,2026-01-13,CT,Abdomen,North Clinic,True,True,True,False,2026-01-13 18:12:42,2026-01-13 18:19:42,2026-01-13 18:23:42,2026-01-13 22:08:42,True
-ST00184,2026-02-21,MRI,Abdomen,North Clinic,True,False,False,False,2026-02-21 12:58:32,,,2026-02-21 14:38:32,False
-ST00185,2026-03-20,CT,Abdomen,South Imaging Center,True,True,True,False,2026-03-20 07:15:15,2026-03-20 07:23:15,2026-03-20 07:27:15,2026-03-20 11:03:15,False
-ST00186,2026-03-12,MRI,Spine,South Imaging Center,False,False,False,False,2026-03-12 07:32:50,,,2026-03-12 11:32:50,False
-ST00187,2026-02-05,CT,Spine,North Clinic,False,False,False,False,2026-02-05 12:19:03,,,2026-02-05 12:57:03,False
-ST00188,2026-02-22,CT,Abdomen,Central Hospital,True,True,True,False,2026-02-22 02:18:14,2026-02-22 02:29:14,2026-02-22 02:37:14,2026-02-22 05:36:14,False
-ST00189,2026-03-07,CT,Chest,South Imaging Center,True,True,True,False,2026-03-07 12:28:59,2026-03-07 12:37:59,2026-03-07 12:48:59,2026-03-07 13:59:59,True
-ST00190,2026-03-21,MRI,Abdomen,Central Hospital,True,True,True,False,2026-03-21 23:43:19,2026-03-21 23:45:19,2026-03-21 23:47:19,2026-03-22 01:35:19,False
-ST00191,2026-01-10,CT,Extremity,North Clinic,False,False,False,False,2026-01-10 10:28:25,,,2026-01-10 11:37:25,False
-ST00192,2026-02-14,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-14 01:03:59,,,2026-02-14 03:25:59,False
-ST00193,2026-03-14,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-14 01:36:43,,,2026-03-14 04:58:43,False
-ST00194,2026-03-22,MRI,Spine,Central Hospital,False,False,False,False,2026-03-22 22:38:44,,,2026-03-23 00:24:44,False
-ST00195,2026-03-09,CT,Spine,Central Hospital,False,False,False,False,2026-03-09 00:28:13,,,2026-03-09 02:56:13,False
-ST00196,2026-03-25,CT,Abdomen,Central Hospital,True,True,True,False,2026-03-25 01:20:36,2026-03-25 01:31:36,2026-03-25 01:39:36,2026-03-25 03:05:36,True
-ST00197,2026-03-24,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-24 08:03:37,,,2026-03-24 11:27:37,False
-ST00198,2026-03-04,MRI,Chest,Central Hospital,True,True,True,False,2026-03-04 07:16:47,2026-03-04 07:22:47,2026-03-04 07:26:47,2026-03-04 11:12:47,True
-ST00199,2026-03-22,X-ray,Head,Central Hospital,False,False,False,False,2026-03-22 13:36:56,,,2026-03-22 16:41:56,False
-ST00200,2026-03-20,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-03-20 22:33:02,,,2026-03-21 02:26:02,False
-ST00201,2026-03-18,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-03-18 13:40:23,,,2026-03-18 15:25:23,False
-ST00202,2026-01-13,MRI,Head,South Imaging Center,True,True,True,False,2026-01-13 14:54:13,2026-01-13 14:55:13,2026-01-13 15:02:13,2026-01-13 18:51:13,False
-ST00203,2026-02-01,CT,Abdomen,North Clinic,True,True,True,False,2026-02-01 10:26:31,2026-02-01 10:38:31,2026-02-01 10:41:31,2026-02-01 14:11:31,True
-ST00204,2026-03-17,CT,Extremity,North Clinic,False,False,False,False,2026-03-17 12:54:39,,,2026-03-17 13:56:39,False
-ST00205,2026-02-18,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-18 22:01:45,,,2026-02-18 22:47:45,False
-ST00206,2026-03-18,Ultrasound,Extremity,North Clinic,False,False,False,False,2026-03-18 01:03:04,,,2026-03-18 02:55:04,False
-ST00207,2026-03-04,Ultrasound,Chest,North Clinic,False,False,False,False,2026-03-04 11:05:32,,,2026-03-04 13:42:32,False
-ST00208,2026-02-11,MRI,Spine,North Clinic,False,False,False,False,2026-02-11 09:17:22,,,2026-02-11 12:54:22,False
-ST00209,2026-01-08,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-01-08 03:14:44,,,2026-01-08 06:24:44,False
-ST00210,2026-01-07,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-07 09:03:02,,,2026-01-07 12:20:02,False
-ST00211,2026-02-23,X-ray,Spine,South Imaging Center,False,False,False,False,2026-02-23 05:45:47,,,2026-02-23 08:52:47,False
-ST00212,2026-01-29,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-29 15:09:41,,,2026-01-29 17:34:41,False
-ST00213,2026-03-19,X-ray,Extremity,Central Hospital,False,False,False,False,2026-03-19 00:02:52,,,2026-03-19 03:41:52,False
-ST00214,2026-02-11,MRI,Head,North Clinic,True,True,True,False,2026-02-11 18:08:08,2026-02-11 18:16:08,2026-02-11 18:29:08,2026-02-11 19:07:08,True
-ST00215,2026-03-06,CT,Head,Central Hospital,True,True,True,False,2026-03-06 13:48:49,2026-03-06 13:56:49,2026-03-06 14:11:49,2026-03-06 14:44:49,True
-ST00216,2026-03-14,X-ray,Head,Central Hospital,False,False,False,False,2026-03-14 07:01:04,,,2026-03-14 09:58:04,False
-ST00217,2026-02-26,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-02-26 22:33:45,,,2026-02-27 00:32:45,False
-ST00218,2026-01-12,CT,Spine,Central Hospital,False,False,False,False,2026-01-12 20:49:10,,,2026-01-13 00:28:10,False
-ST00219,2026-01-28,MRI,Abdomen,Central Hospital,True,True,True,False,2026-01-28 22:13:30,2026-01-28 22:22:30,2026-01-28 22:34:30,2026-01-29 00:51:30,True
-ST00220,2026-02-03,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-03 23:49:29,,,2026-02-04 00:53:29,False
-ST00221,2026-02-25,CT,Spine,South Imaging Center,False,False,False,False,2026-02-25 17:44:59,,,2026-02-25 20:42:59,False
-ST00222,2026-03-01,MRI,Extremity,South Imaging Center,False,False,False,False,2026-03-01 13:43:45,,,2026-03-01 14:24:45,False
-ST00223,2026-03-05,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-03-05 20:51:28,,,2026-03-05 21:33:28,False
-ST00224,2026-01-27,X-ray,Abdomen,North Clinic,False,False,False,False,2026-01-27 12:45:58,,,2026-01-27 14:46:58,False
-ST00225,2026-01-01,CT,Head,Central Hospital,True,True,True,False,2026-01-01 14:13:39,2026-01-01 14:20:39,2026-01-01 14:33:39,2026-01-01 17:30:39,False
-ST00226,2026-03-14,MRI,Spine,North Clinic,False,False,False,False,2026-03-14 10:33:59,,,2026-03-14 12:55:59,False
-ST00227,2026-02-03,CT,Abdomen,South Imaging Center,True,True,True,False,2026-02-03 02:20:42,2026-02-03 02:30:42,2026-02-03 02:32:42,2026-02-03 03:34:42,True
-ST00228,2026-01-05,MRI,Abdomen,South Imaging Center,True,True,True,False,2026-01-05 19:57:18,2026-01-05 20:04:18,2026-01-05 20:13:18,2026-01-05 22:18:18,True
-ST00229,2026-01-12,CT,Chest,Central Hospital,True,True,True,False,2026-01-12 01:12:50,2026-01-12 01:23:50,2026-01-12 01:33:50,2026-01-12 04:37:50,True
-ST00230,2026-02-08,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-08 09:01:49,,,2026-02-08 09:37:49,False
-ST00231,2026-01-30,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-30 06:21:28,,,2026-01-30 10:11:28,False
-ST00232,2026-01-29,CT,Chest,South Imaging Center,True,True,True,False,2026-01-29 02:27:38,2026-01-29 02:34:38,2026-01-29 02:42:38,2026-01-29 05:18:38,True
-ST00233,2026-02-24,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-24 05:55:12,,,2026-02-24 06:48:12,False
-ST00234,2026-03-25,X-ray,Spine,North Clinic,False,False,False,False,2026-03-25 16:03:23,,,2026-03-25 16:42:23,False
-ST00235,2026-03-31,CT,Abdomen,North Clinic,True,True,True,False,2026-03-31 10:27:50,2026-03-31 10:37:50,2026-03-31 10:49:50,2026-03-31 12:48:50,True
-ST00236,2026-01-03,Ultrasound,Head,South Imaging Center,False,False,False,False,2026-01-03 00:35:57,,,2026-01-03 04:35:57,False
-ST00237,2026-02-14,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-14 16:06:12,,,2026-02-14 17:03:12,False
-ST00238,2026-03-23,CT,Spine,North Clinic,False,False,False,False,2026-03-23 23:47:28,,,2026-03-24 02:52:28,False
-ST00239,2026-02-20,CT,Abdomen,Central Hospital,True,True,True,False,2026-02-20 20:55:16,2026-02-20 20:59:16,2026-02-20 21:03:16,2026-02-20 21:49:16,True
-ST00240,2026-02-21,MRI,Abdomen,Central Hospital,True,True,True,False,2026-02-21 12:23:55,2026-02-21 12:34:55,2026-02-21 12:39:55,2026-02-21 13:24:55,True
-ST00241,2026-01-17,MRI,Chest,North Clinic,True,True,True,False,2026-01-17 20:16:55,2026-01-17 20:27:55,2026-01-17 20:41:55,2026-01-17 23:15:55,False
-ST00242,2026-03-08,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-08 03:09:21,,,2026-03-08 06:28:21,False
-ST00243,2026-03-02,CT,Abdomen,South Imaging Center,True,True,True,False,2026-03-02 15:14:28,2026-03-02 15:16:28,2026-03-02 15:28:28,2026-03-02 17:06:28,False
-ST00244,2026-01-06,CT,Chest,North Clinic,True,True,False,True,2026-01-06 10:53:25,2026-01-06 11:01:25,,2026-01-06 13:02:25,False
-ST00245,2026-01-08,MRI,Chest,South Imaging Center,True,True,True,False,2026-01-08 10:47:46,2026-01-08 10:56:46,2026-01-08 11:07:46,2026-01-08 13:43:46,False
-ST00246,2026-03-28,CT,Extremity,Central Hospital,False,False,False,False,2026-03-28 23:32:39,,,2026-03-29 02:53:39,False
-ST00247,2026-02-01,MRI,Extremity,Central Hospital,False,False,False,False,2026-02-01 05:12:41,,,2026-02-01 06:25:41,False
-ST00248,2026-02-13,CT,Abdomen,South Imaging Center,True,False,False,False,2026-02-13 17:47:41,,,2026-02-13 18:43:41,False
-ST00249,2026-03-04,CT,Head,North Clinic,True,True,True,False,2026-03-04 17:35:06,2026-03-04 17:43:06,2026-03-04 17:54:06,2026-03-04 18:50:06,True
-ST00250,2026-02-07,CT,Abdomen,Central Hospital,True,True,True,False,2026-02-07 14:44:45,2026-02-07 14:45:45,2026-02-07 14:57:45,2026-02-07 16:44:45,True
-ST00251,2026-02-24,MRI,Abdomen,South Imaging Center,True,True,True,False,2026-02-24 04:08:54,2026-02-24 04:19:54,2026-02-24 04:30:54,2026-02-24 05:21:54,True
-ST00252,2026-03-06,CT,Abdomen,Central Hospital,True,True,True,False,2026-03-06 10:19:41,2026-03-06 10:30:41,2026-03-06 10:38:41,2026-03-06 11:27:41,True
-ST00253,2026-01-31,MRI,Abdomen,Central Hospital,True,True,True,False,2026-01-31 01:22:41,2026-01-31 01:33:41,2026-01-31 01:46:41,2026-01-31 04:52:41,False
-ST00254,2026-03-04,MRI,Extremity,Central Hospital,False,False,False,False,2026-03-04 17:20:48,,,2026-03-04 19:27:48,False
-ST00255,2026-02-05,CT,Head,Central Hospital,True,True,True,False,2026-02-05 04:54:49,2026-02-05 05:02:49,2026-02-05 05:06:49,2026-02-05 06:08:49,True
-ST00256,2026-02-19,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-02-19 07:00:09,,,2026-02-19 07:44:09,False
-ST00257,2026-02-02,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-02-02 16:43:04,,,2026-02-02 17:51:04,False
-ST00258,2026-02-06,CT,Head,South Imaging Center,True,False,False,False,2026-02-06 13:49:15,,,2026-02-06 17:41:15,False
-ST00259,2026-03-20,Ultrasound,Spine,North Clinic,False,False,False,False,2026-03-20 13:12:30,,,2026-03-20 13:58:30,False
-ST00260,2026-02-05,MRI,Head,North Clinic,True,False,False,False,2026-02-05 08:52:44,,,2026-02-05 12:03:44,False
-ST00261,2026-03-15,X-ray,Spine,South Imaging Center,False,False,False,False,2026-03-15 01:11:54,,,2026-03-15 02:45:54,False
-ST00262,2026-01-24,CT,Spine,North Clinic,False,False,False,False,2026-01-24 05:18:10,,,2026-01-24 06:42:10,False
-ST00263,2026-03-07,Ultrasound,Spine,North Clinic,False,False,False,False,2026-03-07 20:34:10,,,2026-03-07 23:07:10,False
-ST00264,2026-03-17,CT,Extremity,Central Hospital,False,False,False,False,2026-03-17 13:09:37,,,2026-03-17 15:31:37,False
-ST00265,2026-03-21,CT,Extremity,North Clinic,False,False,False,False,2026-03-21 07:29:40,,,2026-03-21 08:39:40,False
-ST00266,2026-01-06,MRI,Abdomen,Central Hospital,True,True,True,False,2026-01-06 01:35:15,2026-01-06 01:37:15,2026-01-06 01:47:15,2026-01-06 02:41:15,True
-ST00267,2026-01-27,CT,Extremity,North Clinic,False,False,False,False,2026-01-27 11:38:59,,,2026-01-27 12:50:59,False
-ST00268,2026-01-09,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-09 21:42:29,,,2026-01-10 00:12:29,False
-ST00269,2026-01-03,CT,Spine,North Clinic,False,False,False,False,2026-01-03 14:08:45,,,2026-01-03 16:51:45,False
-ST00270,2026-01-23,CT,Chest,Central Hospital,True,True,True,False,2026-01-23 21:24:09,2026-01-23 21:25:09,2026-01-23 21:28:09,2026-01-24 01:01:09,True
-ST00271,2026-01-14,CT,Spine,Central Hospital,False,False,False,False,2026-01-14 08:37:49,,,2026-01-14 12:10:49,False
-ST00272,2026-03-15,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-15 16:13:40,,,2026-03-15 19:25:40,False
-ST00273,2026-03-29,CT,Abdomen,Central Hospital,True,True,True,False,2026-03-29 22:48:03,2026-03-29 22:51:03,2026-03-29 23:04:03,2026-03-30 01:58:03,True
-ST00274,2026-03-17,CT,Abdomen,Central Hospital,True,True,True,False,2026-03-17 08:36:47,2026-03-17 08:40:47,2026-03-17 08:54:47,2026-03-17 11:50:47,True
-ST00275,2026-03-23,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-03-23 05:37:25,,,2026-03-23 08:29:25,False
-ST00276,2026-03-03,MRI,Head,North Clinic,True,True,True,False,2026-03-03 08:33:42,2026-03-03 08:38:42,2026-03-03 08:49:42,2026-03-03 10:38:42,True
-ST00277,2026-01-19,MRI,Chest,South Imaging Center,True,True,True,False,2026-01-19 04:28:22,2026-01-19 04:34:22,2026-01-19 04:44:22,2026-01-19 07:22:22,True
-ST00278,2026-02-23,CT,Spine,South Imaging Center,False,False,False,False,2026-02-23 19:16:03,,,2026-02-23 20:02:03,False
-ST00279,2026-02-07,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-02-07 13:29:55,,,2026-02-07 17:15:55,False
-ST00280,2026-02-04,X-ray,Abdomen,South Imaging Center,False,False,False,False,2026-02-04 16:05:20,,,2026-02-04 17:41:20,False
-ST00281,2026-03-05,MRI,Extremity,North Clinic,False,False,False,False,2026-03-05 19:09:51,,,2026-03-05 22:52:51,False
-ST00282,2026-01-13,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-13 22:52:00,,,2026-01-14 00:53:00,False
-ST00283,2026-01-17,X-ray,Spine,North Clinic,False,False,False,False,2026-01-17 23:59:14,,,2026-01-18 03:32:14,False
-ST00284,2026-03-03,CT,Head,Central Hospital,True,True,False,True,2026-03-03 08:03:04,2026-03-03 08:11:04,,2026-03-03 09:29:04,False
-ST00285,2026-03-18,CT,Chest,Central Hospital,True,True,True,False,2026-03-18 19:25:05,2026-03-18 19:30:05,2026-03-18 19:45:05,2026-03-18 22:19:05,True
-ST00286,2026-03-15,MRI,Abdomen,North Clinic,True,True,True,False,2026-03-15 03:17:42,2026-03-15 03:18:42,2026-03-15 03:25:42,2026-03-15 05:01:42,True
-ST00287,2026-02-12,X-ray,Spine,North Clinic,False,False,False,False,2026-02-12 10:10:13,,,2026-02-12 12:23:13,False
-ST00288,2026-01-19,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-19 03:18:56,,,2026-01-19 05:27:56,False
-ST00289,2026-01-26,X-ray,Spine,North Clinic,False,False,False,False,2026-01-26 21:30:15,,,2026-01-26 22:25:15,False
-ST00290,2026-02-28,Ultrasound,Head,North Clinic,False,False,False,False,2026-02-28 11:49:04,,,2026-02-28 14:43:04,False
-ST00291,2026-02-01,CT,Abdomen,North Clinic,True,True,True,False,2026-02-01 04:28:36,2026-02-01 04:33:36,2026-02-01 04:46:36,2026-02-01 06:52:36,True
-ST00292,2026-02-04,CT,Abdomen,South Imaging Center,True,True,True,False,2026-02-04 03:09:49,2026-02-04 03:16:49,2026-02-04 03:30:49,2026-02-04 03:58:49,True
-ST00293,2026-02-09,CT,Head,South Imaging Center,True,False,False,False,2026-02-09 10:32:18,,,2026-02-09 11:43:18,False
-ST00294,2026-03-07,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-07 20:03:41,,,2026-03-07 21:10:41,False
-ST00295,2026-01-23,X-ray,Abdomen,North Clinic,False,False,False,False,2026-01-23 21:54:32,,,2026-01-24 00:01:32,False
-ST00296,2026-02-25,CT,Head,South Imaging Center,True,True,True,False,2026-02-25 01:46:32,2026-02-25 01:52:32,2026-02-25 02:06:32,2026-02-25 02:40:32,True
-ST00297,2026-02-05,CT,Abdomen,North Clinic,True,True,False,True,2026-02-05 15:03:19,2026-02-05 15:05:19,,2026-02-05 16:25:19,False
-ST00298,2026-02-20,CT,Extremity,North Clinic,False,False,False,False,2026-02-20 06:26:02,,,2026-02-20 07:31:02,False
-ST00299,2026-03-17,CT,Spine,South Imaging Center,False,False,False,False,2026-03-17 05:47:53,,,2026-03-17 07:16:53,False
-ST00300,2026-01-28,MRI,Spine,Central Hospital,False,False,False,False,2026-01-28 17:26:32,,,2026-01-28 18:52:32,False
-ST00301,2026-01-14,X-ray,Spine,South Imaging Center,False,False,False,False,2026-01-14 04:16:12,,,2026-01-14 05:35:12,False
-ST00302,2026-02-13,Ultrasound,Abdomen,North Clinic,False,False,False,False,2026-02-13 05:11:03,,,2026-02-13 08:36:03,False
-ST00303,2026-03-10,CT,Extremity,North Clinic,False,False,False,False,2026-03-10 21:20:57,,,2026-03-10 23:09:57,False
-ST00304,2026-03-24,CT,Head,North Clinic,True,True,True,False,2026-03-24 15:49:02,2026-03-24 15:58:02,2026-03-24 16:03:02,2026-03-24 19:46:02,True
-ST00305,2026-01-03,CT,Extremity,North Clinic,False,False,False,False,2026-01-03 13:14:46,,,2026-01-03 15:23:46,False
-ST00306,2026-03-20,Ultrasound,Head,Central Hospital,False,False,False,False,2026-03-20 00:40:03,,,2026-03-20 03:51:03,False
-ST00307,2026-01-07,CT,Spine,North Clinic,False,False,False,False,2026-01-07 09:12:15,,,2026-01-07 12:01:15,False
-ST00308,2026-03-16,CT,Extremity,Central Hospital,False,False,False,False,2026-03-16 16:16:59,,,2026-03-16 17:09:59,False
-ST00309,2026-01-31,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-31 18:43:40,,,2026-01-31 21:17:40,False
-ST00310,2026-02-20,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-20 05:32:10,,,2026-02-20 08:50:10,False
-ST00311,2026-01-18,X-ray,Head,South Imaging Center,False,False,False,False,2026-01-18 16:00:17,,,2026-01-18 18:25:17,False
-ST00312,2026-03-30,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-30 10:06:48,,,2026-03-30 12:53:48,False
-ST00313,2026-01-30,CT,Abdomen,North Clinic,True,False,False,False,2026-01-30 12:39:41,,,2026-01-30 14:11:41,False
-ST00314,2026-02-20,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-20 09:07:10,,,2026-02-20 10:46:10,False
-ST00315,2026-03-03,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-03-03 15:47:24,,,2026-03-03 16:54:24,False
-ST00316,2026-01-30,MRI,Chest,South Imaging Center,True,True,True,False,2026-01-30 09:37:56,2026-01-30 09:40:56,2026-01-30 09:51:56,2026-01-30 10:51:56,True
-ST00317,2026-03-11,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-03-11 23:11:45,,,2026-03-12 02:10:45,False
-ST00318,2026-03-22,X-ray,Chest,South Imaging Center,False,False,False,False,2026-03-22 02:56:23,,,2026-03-22 03:42:23,False
-ST00319,2026-03-16,MRI,Head,South Imaging Center,True,True,True,False,2026-03-16 20:36:44,2026-03-16 20:43:44,2026-03-16 20:45:44,2026-03-16 23:18:44,False
-ST00320,2026-01-29,MRI,Abdomen,Central Hospital,True,True,True,False,2026-01-29 02:59:01,2026-01-29 03:10:01,2026-01-29 03:19:01,2026-01-29 03:52:01,True
-ST00321,2026-02-12,CT,Spine,North Clinic,False,False,False,False,2026-02-12 16:21:18,,,2026-02-12 17:48:18,False
-ST00322,2026-02-28,CT,Abdomen,South Imaging Center,True,True,True,False,2026-02-28 21:37:15,2026-02-28 21:43:15,2026-02-28 21:47:15,2026-03-01 01:26:15,True
-ST00323,2026-01-11,CT,Spine,North Clinic,False,False,False,False,2026-01-11 07:25:35,,,2026-01-11 08:31:35,False
-ST00324,2026-02-13,CT,Chest,Central Hospital,True,True,True,False,2026-02-13 15:38:04,2026-02-13 15:45:04,2026-02-13 15:53:04,2026-02-13 17:16:04,False
-ST00325,2026-03-20,CT,Extremity,North Clinic,False,False,False,False,2026-03-20 23:32:26,,,2026-03-21 03:11:26,False
-ST00326,2026-01-19,X-ray,Spine,North Clinic,False,False,False,False,2026-01-19 10:20:43,,,2026-01-19 13:06:43,False
-ST00327,2026-02-18,X-ray,Spine,Central Hospital,False,False,False,False,2026-02-18 10:11:39,,,2026-02-18 10:51:39,False
-ST00328,2026-02-08,MRI,Head,South Imaging Center,True,True,True,False,2026-02-08 04:19:14,2026-02-08 04:25:14,2026-02-08 04:31:14,2026-02-08 07:00:14,True
-ST00329,2026-03-07,MRI,Extremity,Central Hospital,False,False,False,False,2026-03-07 07:05:11,,,2026-03-07 07:42:11,False
-ST00330,2026-02-11,CT,Abdomen,Central Hospital,True,True,True,False,2026-02-11 20:08:04,2026-02-11 20:15:04,2026-02-11 20:23:04,2026-02-11 20:56:04,True
-ST00331,2026-02-05,MRI,Chest,Central Hospital,True,True,True,False,2026-02-05 04:44:29,2026-02-05 04:52:29,2026-02-05 04:58:29,2026-02-05 07:58:29,True
-ST00332,2026-01-13,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-13 11:48:26,,,2026-01-13 13:58:26,False
-ST00333,2026-02-24,Ultrasound,Head,South Imaging Center,False,False,False,False,2026-02-24 03:50:32,,,2026-02-24 05:15:32,False
-ST00334,2026-02-19,CT,Chest,Central Hospital,True,True,True,False,2026-02-19 10:20:29,2026-02-19 10:23:29,2026-02-19 10:37:29,2026-02-19 12:56:29,True
-ST00335,2026-02-28,X-ray,Head,South Imaging Center,False,False,False,False,2026-02-28 20:41:21,,,2026-02-28 22:39:21,False
-ST00336,2026-01-31,CT,Extremity,North Clinic,False,False,False,False,2026-01-31 22:13:43,,,2026-02-01 01:57:43,False
-ST00337,2026-02-27,CT,Extremity,North Clinic,False,False,False,False,2026-02-27 15:28:43,,,2026-02-27 18:19:43,False
-ST00338,2026-03-10,MRI,Spine,North Clinic,False,False,False,False,2026-03-10 19:29:00,,,2026-03-10 20:08:00,False
-ST00339,2026-02-02,MRI,Spine,North Clinic,False,False,False,False,2026-02-02 03:50:39,,,2026-02-02 06:54:39,False
-ST00340,2026-03-19,X-ray,Chest,North Clinic,False,False,False,False,2026-03-19 08:34:23,,,2026-03-19 11:41:23,False
-ST00341,2026-01-26,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-01-26 18:43:50,,,2026-01-26 21:45:50,False
-ST00342,2026-03-12,CT,Spine,South Imaging Center,False,False,False,False,2026-03-12 00:59:02,,,2026-03-12 02:17:02,False
-ST00343,2026-03-03,X-ray,Spine,South Imaging Center,False,False,False,False,2026-03-03 01:44:06,,,2026-03-03 02:56:06,False
-ST00344,2026-01-24,CT,Chest,North Clinic,True,True,True,False,2026-01-24 12:21:32,2026-01-24 12:29:32,2026-01-24 12:33:32,2026-01-24 14:41:32,True
-ST00345,2026-02-18,X-ray,Spine,South Imaging Center,False,False,False,False,2026-02-18 17:19:27,,,2026-02-18 21:02:27,False
-ST00346,2026-01-07,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-07 01:07:33,,,2026-01-07 02:35:33,False
-ST00347,2026-02-01,Ultrasound,Spine,North Clinic,False,False,False,False,2026-02-01 13:25:13,,,2026-02-01 16:14:13,False
-ST00348,2026-01-31,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-31 11:05:47,,,2026-01-31 13:56:47,False
-ST00349,2026-02-23,CT,Abdomen,North Clinic,True,True,True,False,2026-02-23 00:54:31,2026-02-23 00:58:31,2026-02-23 01:04:31,2026-02-23 03:51:31,True
-ST00350,2026-03-16,CT,Head,South Imaging Center,True,True,True,False,2026-03-16 20:57:58,2026-03-16 21:05:58,2026-03-16 21:12:58,2026-03-16 23:55:58,False
-ST00351,2026-01-27,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-27 13:12:08,,,2026-01-27 16:40:08,False
-ST00352,2026-02-06,X-ray,Spine,Central Hospital,False,False,False,False,2026-02-06 20:45:05,,,2026-02-06 22:48:05,False
-ST00353,2026-01-29,CT,Chest,South Imaging Center,True,True,True,False,2026-01-29 04:48:13,2026-01-29 04:56:13,2026-01-29 05:09:13,2026-01-29 07:25:13,True
-ST00354,2026-01-27,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-01-27 07:47:06,,,2026-01-27 08:57:06,False
-ST00355,2026-03-01,X-ray,Head,Central Hospital,False,False,False,False,2026-03-01 18:37:53,,,2026-03-01 20:14:53,False
-ST00356,2026-03-07,Ultrasound,Head,Central Hospital,False,False,False,False,2026-03-07 00:49:34,,,2026-03-07 04:07:34,False
-ST00357,2026-01-06,CT,Abdomen,Central Hospital,True,True,True,False,2026-01-06 02:18:47,2026-01-06 02:20:47,2026-01-06 02:24:47,2026-01-06 02:54:47,False
-ST00358,2026-02-09,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-09 12:09:47,,,2026-02-09 14:46:47,False
-ST00359,2026-01-20,X-ray,Abdomen,North Clinic,False,False,False,False,2026-01-20 08:45:57,,,2026-01-20 10:42:57,False
-ST00360,2026-03-04,CT,Chest,Central Hospital,True,True,True,False,2026-03-04 17:03:04,2026-03-04 17:07:04,2026-03-04 17:20:04,2026-03-04 17:47:04,False
-ST00361,2026-02-10,X-ray,Head,North Clinic,False,False,False,False,2026-02-10 13:44:33,,,2026-02-10 14:28:33,False
-ST00362,2026-03-18,MRI,Abdomen,North Clinic,True,False,False,False,2026-03-18 12:04:52,,,2026-03-18 12:41:52,False
-ST00363,2026-02-25,MRI,Abdomen,North Clinic,True,True,True,False,2026-02-25 03:26:49,2026-02-25 03:37:49,2026-02-25 03:46:49,2026-02-25 04:35:49,False
-ST00364,2026-01-27,CT,Chest,South Imaging Center,True,True,True,False,2026-01-27 11:45:23,2026-01-27 11:57:23,2026-01-27 12:03:23,2026-01-27 15:23:23,True
-ST00365,2026-02-02,X-ray,Extremity,Central Hospital,False,False,False,False,2026-02-02 17:31:41,,,2026-02-02 20:58:41,False
-ST00366,2026-01-18,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-18 00:55:58,,,2026-01-18 03:19:58,False
-ST00367,2026-02-01,CT,Chest,Central Hospital,True,True,True,False,2026-02-01 20:07:28,2026-02-01 20:10:28,2026-02-01 20:15:28,2026-02-01 20:43:28,True
-ST00368,2026-02-13,X-ray,Abdomen,South Imaging Center,False,False,False,False,2026-02-13 08:58:09,,,2026-02-13 10:50:09,False
-ST00369,2026-03-12,MRI,Abdomen,Central Hospital,True,True,True,False,2026-03-12 04:26:18,2026-03-12 04:38:18,2026-03-12 04:50:18,2026-03-12 05:31:18,True
-ST00370,2026-02-09,MRI,Abdomen,Central Hospital,True,True,True,False,2026-02-09 08:41:21,2026-02-09 08:52:21,2026-02-09 08:58:21,2026-02-09 10:50:21,True
-ST00371,2026-01-13,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-13 23:14:16,,,2026-01-14 03:00:16,False
-ST00372,2026-02-06,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-06 06:36:32,,,2026-02-06 09:11:32,False
-ST00373,2026-03-19,MRI,Head,North Clinic,True,True,True,False,2026-03-19 20:47:01,2026-03-19 20:58:01,2026-03-19 21:13:01,2026-03-20 00:43:01,True
-ST00374,2026-02-21,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-21 06:43:57,,,2026-02-21 09:42:57,False
-ST00375,2026-01-06,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-06 23:54:24,,,2026-01-07 01:20:24,False
-ST00376,2026-02-22,CT,Abdomen,Central Hospital,True,False,False,False,2026-02-22 02:30:31,,,2026-02-22 04:58:31,False
-ST00377,2026-03-08,CT,Extremity,Central Hospital,False,False,False,False,2026-03-08 01:12:10,,,2026-03-08 03:52:10,False
-ST00378,2026-03-29,MRI,Chest,South Imaging Center,True,True,True,False,2026-03-29 06:33:50,2026-03-29 06:42:50,2026-03-29 06:53:50,2026-03-29 07:22:50,True
-ST00379,2026-03-20,CT,Chest,North Clinic,True,True,True,False,2026-03-20 08:14:56,2026-03-20 08:15:56,2026-03-20 08:26:56,2026-03-20 09:07:56,True
-ST00380,2026-03-10,CT,Chest,North Clinic,True,False,False,False,2026-03-10 00:00:54,,,2026-03-10 00:52:54,False
-ST00381,2026-01-04,CT,Head,North Clinic,True,True,True,False,2026-01-04 01:56:51,2026-01-04 02:07:51,2026-01-04 02:19:51,2026-01-04 04:18:51,True
-ST00382,2026-02-13,X-ray,Spine,Central Hospital,False,False,False,False,2026-02-13 13:10:02,,,2026-02-13 15:21:02,False
-ST00383,2026-03-08,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-08 06:52:37,,,2026-03-08 08:01:37,False
-ST00384,2026-03-25,CT,Head,South Imaging Center,True,False,False,False,2026-03-25 12:36:46,,,2026-03-25 14:51:46,False
-ST00385,2026-01-13,X-ray,Head,Central Hospital,False,False,False,False,2026-01-13 08:44:24,,,2026-01-13 09:19:24,False
-ST00386,2026-01-29,MRI,Extremity,South Imaging Center,False,False,False,False,2026-01-29 23:14:10,,,2026-01-30 01:37:10,False
-ST00387,2026-02-06,X-ray,Head,North Clinic,False,False,False,False,2026-02-06 19:46:41,,,2026-02-06 22:18:41,False
-ST00388,2026-01-16,CT,Chest,Central Hospital,True,True,True,False,2026-01-16 01:27:32,2026-01-16 01:38:32,2026-01-16 01:52:32,2026-01-16 02:06:32,True
-ST00389,2026-01-10,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-10 19:06:22,,,2026-01-10 22:14:22,False
-ST00390,2026-03-10,X-ray,Head,Central Hospital,False,False,False,False,2026-03-10 06:46:32,,,2026-03-10 10:30:32,False
-ST00391,2026-02-09,CT,Extremity,Central Hospital,False,False,False,False,2026-02-09 01:20:46,,,2026-02-09 02:50:46,False
-ST00392,2026-01-14,MRI,Abdomen,North Clinic,True,True,True,False,2026-01-14 14:32:22,2026-01-14 14:44:22,2026-01-14 14:55:22,2026-01-14 17:40:22,False
-ST00393,2026-01-24,CT,Head,Central Hospital,True,False,False,False,2026-01-24 00:01:35,,,2026-01-24 02:49:35,False
-ST00394,2026-02-10,CT,Chest,South Imaging Center,True,True,True,False,2026-02-10 03:39:54,2026-02-10 03:49:54,2026-02-10 03:53:54,2026-02-10 06:54:54,True
-ST00395,2026-02-18,CT,Abdomen,North Clinic,True,False,False,False,2026-02-18 02:52:48,,,2026-02-18 06:18:48,False
-ST00396,2026-03-18,MRI,Spine,Central Hospital,False,False,False,False,2026-03-18 07:03:26,,,2026-03-18 09:22:26,False
-ST00397,2026-01-30,CT,Extremity,Central Hospital,False,False,False,False,2026-01-30 02:47:27,,,2026-01-30 05:23:27,False
-ST00398,2026-03-24,CT,Head,North Clinic,True,True,True,False,2026-03-24 11:06:28,2026-03-24 11:07:28,2026-03-24 11:15:28,2026-03-24 14:03:28,True
-ST00399,2026-01-24,CT,Abdomen,Central Hospital,True,True,True,False,2026-01-24 13:54:04,2026-01-24 14:02:04,2026-01-24 14:05:04,2026-01-24 16:46:04,False
-ST00400,2026-01-06,CT,Extremity,Central Hospital,False,False,False,False,2026-01-06 00:05:20,,,2026-01-06 03:14:20,False
-ST00401,2026-03-26,CT,Extremity,South Imaging Center,False,False,False,False,2026-03-26 19:40:59,,,2026-03-26 23:20:59,False
-ST00402,2026-02-24,CT,Head,North Clinic,True,False,False,False,2026-02-24 06:12:57,,,2026-02-24 08:12:57,False
-ST00403,2026-03-30,CT,Head,South Imaging Center,True,False,False,False,2026-03-30 06:06:35,,,2026-03-30 07:11:35,False
-ST00404,2026-03-15,MRI,Head,North Clinic,True,True,True,False,2026-03-15 05:43:04,2026-03-15 05:55:04,2026-03-15 06:00:04,2026-03-15 08:39:04,True
-ST00405,2026-02-06,MRI,Abdomen,South Imaging Center,True,True,True,False,2026-02-06 23:00:22,2026-02-06 23:06:22,2026-02-06 23:15:22,2026-02-07 01:34:22,True
-ST00406,2026-02-15,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-15 13:59:31,,,2026-02-15 15:26:31,False
-ST00407,2026-01-31,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-31 09:09:40,,,2026-01-31 10:40:40,False
-ST00408,2026-01-15,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-15 04:01:28,,,2026-01-15 07:05:28,False
-ST00409,2026-03-11,CT,Head,South Imaging Center,True,True,True,False,2026-03-11 21:44:57,2026-03-11 21:48:57,2026-03-11 22:03:57,2026-03-11 23:21:57,True
-ST00410,2026-03-08,CT,Spine,South Imaging Center,False,False,False,False,2026-03-08 11:48:29,,,2026-03-08 15:28:29,False
-ST00411,2026-03-13,MRI,Head,South Imaging Center,True,True,True,False,2026-03-13 19:22:44,2026-03-13 19:28:44,2026-03-13 19:41:44,2026-03-13 22:16:44,True
-ST00412,2026-03-04,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-03-04 07:31:27,,,2026-03-04 08:14:27,False
-ST00413,2026-03-21,MRI,Chest,South Imaging Center,True,True,True,False,2026-03-21 10:04:07,2026-03-21 10:15:07,2026-03-21 10:28:07,2026-03-21 11:17:07,True
-ST00414,2026-02-14,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-14 06:34:46,,,2026-02-14 09:52:46,False
-ST00415,2026-03-01,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-03-01 20:35:39,,,2026-03-01 21:14:39,False
-ST00416,2026-02-21,MRI,Chest,South Imaging Center,True,True,True,False,2026-02-21 16:08:41,2026-02-21 16:20:41,2026-02-21 16:26:41,2026-02-21 16:47:41,True
-ST00417,2026-03-07,CT,Head,North Clinic,True,True,True,False,2026-03-07 10:36:38,2026-03-07 10:38:38,2026-03-07 10:43:38,2026-03-07 12:00:38,True
-ST00418,2026-03-21,CT,Spine,North Clinic,False,False,False,False,2026-03-21 03:35:13,,,2026-03-21 04:30:13,False
-ST00419,2026-02-09,MRI,Head,North Clinic,True,False,False,False,2026-02-09 10:06:44,,,2026-02-09 11:38:44,False
-ST00420,2026-03-08,X-ray,Chest,South Imaging Center,False,False,False,False,2026-03-08 09:55:57,,,2026-03-08 13:17:57,False
-ST00421,2026-03-15,CT,Spine,North Clinic,False,False,False,False,2026-03-15 17:57:47,,,2026-03-15 20:09:47,False
-ST00422,2026-02-23,MRI,Chest,South Imaging Center,True,True,True,False,2026-02-23 15:53:15,2026-02-23 15:55:15,2026-02-23 16:03:15,2026-02-23 19:13:15,False
-ST00423,2026-03-25,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-03-25 07:11:32,,,2026-03-25 07:56:32,False
-ST00424,2026-01-21,Ultrasound,Extremity,North Clinic,False,False,False,False,2026-01-21 12:38:14,,,2026-01-21 15:14:14,False
-ST00425,2026-01-05,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-01-05 12:29:50,,,2026-01-05 15:23:50,False
-ST00426,2026-03-05,CT,Abdomen,Central Hospital,True,True,True,False,2026-03-05 21:30:20,2026-03-05 21:34:20,2026-03-05 21:48:20,2026-03-06 01:07:20,False
-ST00427,2026-01-30,CT,Head,South Imaging Center,True,True,True,False,2026-01-30 01:21:56,2026-01-30 01:28:56,2026-01-30 01:38:56,2026-01-30 03:20:56,True
-ST00428,2026-01-14,X-ray,Chest,South Imaging Center,False,False,False,False,2026-01-14 14:06:30,,,2026-01-14 16:49:30,False
-ST00429,2026-02-03,CT,Spine,Central Hospital,False,False,False,False,2026-02-03 13:54:39,,,2026-02-03 15:28:39,False
-ST00430,2026-02-03,MRI,Extremity,North Clinic,False,False,False,False,2026-02-03 01:38:19,,,2026-02-03 04:45:19,False
-ST00431,2026-03-17,CT,Abdomen,North Clinic,True,True,True,False,2026-03-17 02:30:48,2026-03-17 02:38:48,2026-03-17 02:45:48,2026-03-17 05:26:48,False
-ST00432,2026-01-19,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-19 00:48:01,,,2026-01-19 01:44:01,False
-ST00433,2026-01-29,X-ray,Chest,North Clinic,False,False,False,False,2026-01-29 16:17:02,,,2026-01-29 17:13:02,False
-ST00434,2026-01-15,CT,Head,North Clinic,True,True,True,False,2026-01-15 23:21:39,2026-01-15 23:27:39,2026-01-15 23:30:39,2026-01-15 23:57:39,False
-ST00435,2026-02-04,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-04 22:40:06,,,2026-02-04 23:48:06,False
-ST00436,2026-01-19,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-19 04:39:16,,,2026-01-19 07:36:16,False
-ST00437,2026-02-09,CT,Chest,Central Hospital,True,True,True,False,2026-02-09 14:48:42,2026-02-09 14:50:42,2026-02-09 15:04:42,2026-02-09 16:46:42,False
-ST00438,2026-01-29,CT,Chest,South Imaging Center,True,True,True,False,2026-01-29 08:03:13,2026-01-29 08:12:13,2026-01-29 08:17:13,2026-01-29 11:04:13,True
-ST00439,2026-02-06,CT,Abdomen,North Clinic,True,True,True,False,2026-02-06 23:10:11,2026-02-06 23:18:11,2026-02-06 23:22:11,2026-02-07 01:36:11,True
-ST00440,2026-02-17,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-02-17 00:20:26,,,2026-02-17 01:59:26,False
-ST00441,2026-03-11,MRI,Extremity,Central Hospital,False,False,False,False,2026-03-11 23:49:02,,,2026-03-12 03:01:02,False
-ST00442,2026-02-14,CT,Abdomen,North Clinic,True,True,True,False,2026-02-14 10:53:41,2026-02-14 11:00:41,2026-02-14 11:11:41,2026-02-14 13:05:41,False
-ST00443,2026-02-12,CT,Extremity,North Clinic,False,False,False,False,2026-02-12 17:47:37,,,2026-02-12 18:56:37,False
-ST00444,2026-02-01,MRI,Head,South Imaging Center,True,True,True,False,2026-02-01 03:12:14,2026-02-01 03:15:14,2026-02-01 03:22:14,2026-02-01 05:01:14,False
-ST00445,2026-02-17,Ultrasound,Head,North Clinic,False,False,False,False,2026-02-17 16:07:47,,,2026-02-17 18:05:47,False
-ST00446,2026-01-28,X-ray,Spine,Central Hospital,False,False,False,False,2026-01-28 05:08:48,,,2026-01-28 07:16:48,False
-ST00447,2026-02-24,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-24 17:52:00,,,2026-02-24 19:13:00,False
-ST00448,2026-03-16,MRI,Spine,Central Hospital,False,False,False,False,2026-03-16 12:40:45,,,2026-03-16 16:16:45,False
-ST00449,2026-02-12,X-ray,Chest,North Clinic,False,False,False,False,2026-02-12 13:40:26,,,2026-02-12 17:38:26,False
-ST00450,2026-03-07,MRI,Abdomen,North Clinic,True,True,True,False,2026-03-07 08:09:05,2026-03-07 08:20:05,2026-03-07 08:28:05,2026-03-07 12:06:05,True
-ST00451,2026-02-28,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-28 01:17:12,,,2026-02-28 04:08:12,False
-ST00452,2026-03-31,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-03-31 15:54:03,,,2026-03-31 18:48:03,False
-ST00453,2026-03-18,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-18 18:30:47,,,2026-03-18 21:37:47,False
-ST00454,2026-03-30,CT,Head,South Imaging Center,True,True,True,False,2026-03-30 18:42:33,2026-03-30 18:48:33,2026-03-30 18:59:33,2026-03-30 19:28:33,True
-ST00455,2026-03-07,MRI,Abdomen,Central Hospital,True,False,False,False,2026-03-07 18:37:26,,,2026-03-07 21:02:26,False
-ST00456,2026-01-02,CT,Head,North Clinic,True,True,True,False,2026-01-02 00:34:41,2026-01-02 00:43:41,2026-01-02 00:56:41,2026-01-02 03:36:41,True
-ST00457,2026-02-07,MRI,Extremity,South Imaging Center,False,False,False,False,2026-02-07 23:24:31,,,2026-02-08 02:55:31,False
-ST00458,2026-01-15,CT,Chest,South Imaging Center,True,True,True,False,2026-01-15 15:15:40,2026-01-15 15:20:40,2026-01-15 15:23:40,2026-01-15 16:19:40,False
-ST00459,2026-01-14,CT,Abdomen,South Imaging Center,True,True,True,False,2026-01-14 18:07:37,2026-01-14 18:11:37,2026-01-14 18:18:37,2026-01-14 20:43:37,True
-ST00460,2026-03-09,MRI,Chest,South Imaging Center,True,True,True,False,2026-03-09 15:34:33,2026-03-09 15:46:33,2026-03-09 16:01:33,2026-03-09 17:36:33,True
-ST00461,2026-03-19,CT,Head,Central Hospital,True,True,True,False,2026-03-19 16:15:06,2026-03-19 16:24:06,2026-03-19 16:34:06,2026-03-19 18:39:06,False
-ST00462,2026-03-19,CT,Head,Central Hospital,True,True,True,False,2026-03-19 10:54:20,2026-03-19 11:05:20,2026-03-19 11:07:20,2026-03-19 14:37:20,True
-ST00463,2026-02-13,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-13 15:35:08,,,2026-02-13 16:11:08,False
-ST00464,2026-01-21,CT,Chest,North Clinic,True,True,True,False,2026-01-21 20:30:40,2026-01-21 20:39:40,2026-01-21 20:46:40,2026-01-21 21:55:40,True
-ST00465,2026-03-07,X-ray,Extremity,North Clinic,False,False,False,False,2026-03-07 02:50:51,,,2026-03-07 06:08:51,False
-ST00466,2026-02-27,CT,Spine,Central Hospital,False,False,False,False,2026-02-27 23:02:34,,,2026-02-28 02:07:34,False
-ST00467,2026-02-03,CT,Spine,Central Hospital,False,False,False,False,2026-02-03 18:43:23,,,2026-02-03 21:56:23,False
-ST00468,2026-03-21,MRI,Abdomen,Central Hospital,True,False,False,False,2026-03-21 00:08:51,,,2026-03-21 03:14:51,False
-ST00469,2026-03-07,CT,Chest,North Clinic,True,True,True,False,2026-03-07 06:07:48,2026-03-07 06:09:48,2026-03-07 06:22:48,2026-03-07 07:18:48,True
-ST00470,2026-02-27,CT,Spine,Central Hospital,False,False,False,False,2026-02-27 21:46:22,,,2026-02-28 00:09:22,False
-ST00471,2026-02-17,MRI,Head,South Imaging Center,True,True,True,False,2026-02-17 06:01:25,2026-02-17 06:09:25,2026-02-17 06:13:25,2026-02-17 07:56:25,False
-ST00472,2026-01-06,X-ray,Chest,Central Hospital,False,False,False,False,2026-01-06 04:55:23,,,2026-01-06 07:34:23,False
-ST00473,2026-01-19,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-19 22:40:56,,,2026-01-20 01:24:56,False
-ST00474,2026-02-18,CT,Spine,South Imaging Center,False,False,False,False,2026-02-18 01:21:48,,,2026-02-18 03:42:48,False
-ST00475,2026-03-23,CT,Head,Central Hospital,True,True,True,False,2026-03-23 13:05:23,2026-03-23 13:06:23,2026-03-23 13:11:23,2026-03-23 14:54:23,True
-ST00476,2026-02-22,CT,Spine,South Imaging Center,False,False,False,False,2026-02-22 04:43:07,,,2026-02-22 07:42:07,False
-ST00477,2026-03-17,X-ray,Extremity,Central Hospital,False,False,False,False,2026-03-17 00:09:59,,,2026-03-17 02:54:59,False
-ST00478,2026-02-25,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-25 14:31:13,,,2026-02-25 16:39:13,False
-ST00479,2026-03-21,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-21 20:49:20,,,2026-03-21 23:43:20,False
-ST00480,2026-02-11,CT,Head,Central Hospital,True,True,True,False,2026-02-11 06:40:56,2026-02-11 06:41:56,2026-02-11 06:48:56,2026-02-11 07:37:56,True
-ST00481,2026-03-17,X-ray,Head,South Imaging Center,False,False,False,False,2026-03-17 07:21:09,,,2026-03-17 11:04:09,False
-ST00482,2026-03-08,CT,Extremity,North Clinic,False,False,False,False,2026-03-08 21:47:51,,,2026-03-09 01:03:51,False
-ST00483,2026-01-17,MRI,Head,Central Hospital,True,True,True,False,2026-01-17 02:45:54,2026-01-17 02:46:54,2026-01-17 02:56:54,2026-01-17 04:31:54,True
-ST00484,2026-02-01,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-02-01 10:10:03,,,2026-02-01 11:59:03,False
-ST00485,2026-01-26,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-01-26 22:57:16,,,2026-01-27 02:25:16,False
-ST00486,2026-01-14,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-14 03:56:42,,,2026-01-14 04:46:42,False
-ST00487,2026-03-26,MRI,Head,North Clinic,True,True,True,False,2026-03-26 04:22:02,2026-03-26 04:34:02,2026-03-26 04:39:02,2026-03-26 08:11:02,False
-ST00488,2026-02-17,CT,Abdomen,Central Hospital,True,True,True,False,2026-02-17 12:31:17,2026-02-17 12:38:17,2026-02-17 12:50:17,2026-02-17 16:29:17,False
-ST00489,2026-02-09,MRI,Abdomen,South Imaging Center,True,True,True,False,2026-02-09 02:42:37,2026-02-09 02:48:37,2026-02-09 02:57:37,2026-02-09 04:40:37,True
-ST00490,2026-01-10,X-ray,Spine,South Imaging Center,False,False,False,False,2026-01-10 01:02:08,,,2026-01-10 04:19:08,False
-ST00491,2026-03-09,CT,Chest,North Clinic,True,True,True,False,2026-03-09 16:48:03,2026-03-09 16:55:03,2026-03-09 17:03:03,2026-03-09 18:17:03,True
-ST00492,2026-03-22,CT,Extremity,Central Hospital,False,False,False,False,2026-03-22 10:10:49,,,2026-03-22 13:12:49,False
-ST00493,2026-02-24,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-02-24 23:12:24,,,2026-02-25 02:41:24,False
-ST00494,2026-01-05,CT,Spine,Central Hospital,False,False,False,False,2026-01-05 11:03:17,,,2026-01-05 11:42:17,False
-ST00495,2026-03-25,CT,Spine,North Clinic,False,False,False,False,2026-03-25 06:28:23,,,2026-03-25 07:03:23,False
-ST00496,2026-01-20,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-20 15:26:08,,,2026-01-20 18:47:08,False
-ST00497,2026-01-16,X-ray,Abdomen,South Imaging Center,False,False,False,False,2026-01-16 10:26:39,,,2026-01-16 11:24:39,False
-ST00498,2026-02-04,CT,Abdomen,South Imaging Center,True,True,True,False,2026-02-04 23:52:31,2026-02-05 00:03:31,2026-02-05 00:11:31,2026-02-05 03:07:31,True
-ST00499,2026-03-15,CT,Chest,South Imaging Center,True,True,True,False,2026-03-15 07:49:06,2026-03-15 07:50:06,2026-03-15 07:53:06,2026-03-15 08:57:06,True
-ST00500,2026-03-08,CT,Chest,Central Hospital,True,True,True,False,2026-03-08 00:28:28,2026-03-08 00:30:28,2026-03-08 00:38:28,2026-03-08 04:00:28,True
+study_id,study_date,modality,body_part,site,ai_eligible,ai_processed,ai_result_available,ai_error,study_start_time,ai_start_time,ai_result_time,study_complete_time,radiologist_used_ai,protocol,algorithm_name,algorithm_vendor
+ST00001,2026-03-04,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-04 01:58:20,,,2026-03-04 05:42:20,False,Routine imaging,,
+ST00002,2026-02-27,CT,Chest,South Imaging Center,False,False,False,False,2026-02-27 07:56:50,,,2026-02-27 10:54:50,False,Routine imaging,,
+ST00003,2026-03-10,MRI,Head,South Imaging Center,True,True,True,False,2026-03-10 02:12:20,2026-03-10 02:20:41,2026-03-10 02:27:11,2026-03-10 06:01:20,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00004,2026-02-11,CT,Head,North Clinic,True,True,True,False,2026-02-11 00:45:46,2026-02-11 00:48:38,2026-02-11 00:58:30,2026-02-11 01:44:46,True,NCCT head,Rapid ICH,RapidAI
+ST00005,2026-02-28,CT,Chest,South Imaging Center,True,True,False,True,2026-02-28 14:47:01,2026-02-28 14:51:07,,2026-02-28 15:42:01,False,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00006,2026-03-02,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-03-02 01:15:19,,,2026-03-02 04:17:19,False,Routine imaging,,
+ST00007,2026-03-10,CT,Head,North Clinic,True,False,False,False,2026-03-10 09:46:16,,,2026-03-10 10:46:16,False,NCCT head,Rapid ICH,RapidAI
+ST00008,2026-03-03,X-ray,Head,North Clinic,False,False,False,False,2026-03-03 17:15:07,,,2026-03-03 19:24:07,False,Routine imaging,,
+ST00009,2026-01-21,MRI,Chest,North Clinic,False,False,False,False,2026-01-21 08:11:12,,,2026-01-21 09:27:12,False,Routine imaging,,
+ST00010,2026-03-31,MRI,Extremity,South Imaging Center,False,False,False,False,2026-03-31 20:19:03,,,2026-03-31 21:50:03,False,Routine imaging,,
+ST00011,2026-02-01,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-01 11:38:00,,,2026-02-01 13:11:00,False,Routine imaging,,
+ST00012,2026-03-20,CT,Abdomen,North Clinic,False,False,False,False,2026-03-20 03:53:33,,,2026-03-20 05:22:33,False,Routine imaging,,
+ST00013,2026-03-27,Ultrasound,Spine,North Clinic,False,False,False,False,2026-03-27 21:27:40,,,2026-03-27 22:38:40,False,Routine imaging,,
+ST00014,2026-01-14,CT,Extremity,North Clinic,False,False,False,False,2026-01-14 13:21:44,,,2026-01-14 16:13:44,False,Routine imaging,,
+ST00015,2026-03-14,MRI,Extremity,North Clinic,False,False,False,False,2026-03-14 12:40:06,,,2026-03-14 14:57:06,False,Routine imaging,,
+ST00016,2026-01-22,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-22 07:03:15,,,2026-01-22 09:48:15,False,Routine imaging,,
+ST00017,2026-01-09,X-ray,Chest,South Imaging Center,False,False,False,False,2026-01-09 19:50:03,,,2026-01-09 21:04:03,False,Routine imaging,,
+ST00018,2026-01-16,X-ray,Spine,Central Hospital,False,False,False,False,2026-01-16 12:47:06,,,2026-01-16 15:54:06,False,Routine imaging,,
+ST00019,2026-02-07,CT,Spine,North Clinic,False,False,False,False,2026-02-07 08:34:22,,,2026-02-07 11:24:22,False,Routine imaging,,
+ST00020,2026-02-23,X-ray,Chest,South Imaging Center,False,False,False,False,2026-02-23 17:06:35,,,2026-02-23 20:35:35,False,Routine imaging,,
+ST00021,2026-01-12,MRI,Extremity,North Clinic,False,False,False,False,2026-01-12 02:55:29,,,2026-01-12 06:42:29,False,Routine imaging,,
+ST00022,2026-03-16,MRI,Chest,South Imaging Center,False,False,False,False,2026-03-16 14:57:53,,,2026-03-16 18:36:53,False,Routine imaging,,
+ST00023,2026-03-15,CT,Chest,South Imaging Center,True,True,True,False,2026-03-15 23:30:02,2026-03-15 23:40:21,2026-03-15 23:49:17,2026-03-16 01:21:02,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00024,2026-02-19,MRI,Head,South Imaging Center,True,True,True,False,2026-02-19 06:56:24,2026-02-19 07:01:34,2026-02-19 07:13:05,2026-02-19 09:46:24,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00025,2026-02-01,MRI,Chest,Central Hospital,False,False,False,False,2026-02-01 11:20:18,,,2026-02-01 13:13:18,False,Routine imaging,,
+ST00026,2026-01-06,CT,Extremity,Central Hospital,False,False,False,False,2026-01-06 14:58:31,,,2026-01-06 15:53:31,False,Routine imaging,,
+ST00027,2026-03-13,MRI,Chest,Central Hospital,False,False,False,False,2026-03-13 01:28:05,,,2026-03-13 04:19:05,False,Routine imaging,,
+ST00028,2026-01-13,MRI,Extremity,North Clinic,False,False,False,False,2026-01-13 11:10:25,,,2026-01-13 12:27:25,False,Routine imaging,,
+ST00029,2026-02-21,X-ray,Spine,South Imaging Center,False,False,False,False,2026-02-21 05:34:08,,,2026-02-21 07:03:08,False,Routine imaging,,
+ST00030,2026-03-15,X-ray,Head,North Clinic,False,False,False,False,2026-03-15 07:53:43,,,2026-03-15 11:30:43,False,Routine imaging,,
+ST00031,2026-02-08,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-02-08 17:43:09,,,2026-02-08 20:10:09,False,Routine imaging,,
+ST00032,2026-02-13,CT,Head,Central Hospital,True,True,True,False,2026-02-13 20:02:20,2026-02-13 20:04:21,2026-02-13 20:09:32,2026-02-13 23:07:20,True,NCCT head,Aidoc ICH,Aidoc
+ST00033,2026-03-10,MRI,Head,South Imaging Center,True,True,False,True,2026-03-10 17:23:20,2026-03-10 17:33:51,,2026-03-10 20:09:20,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00034,2026-02-17,CT,Head,North Clinic,True,True,True,False,2026-02-17 03:05:51,2026-02-17 03:07:19,2026-02-17 03:10:37,2026-02-17 07:00:51,False,NCCT head,Viz ICH,Viz.ai
+ST00035,2026-01-19,CT,Spine,North Clinic,False,False,False,False,2026-01-19 11:41:14,,,2026-01-19 13:46:14,False,Routine imaging,,
+ST00036,2026-02-09,MRI,Chest,Central Hospital,False,False,False,False,2026-02-09 21:56:15,,,2026-02-10 01:37:15,False,Routine imaging,,
+ST00037,2026-01-25,CT,Extremity,Central Hospital,False,False,False,False,2026-01-25 03:24:40,,,2026-01-25 05:53:40,False,Routine imaging,,
+ST00038,2026-02-10,CT,Spine,Central Hospital,False,False,False,False,2026-02-10 23:03:19,,,2026-02-11 00:41:19,False,Routine imaging,,
+ST00039,2026-02-13,X-ray,Extremity,Central Hospital,False,False,False,False,2026-02-13 00:34:10,,,2026-02-13 01:34:10,False,Routine imaging,,
+ST00040,2026-03-05,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-03-05 07:36:27,,,2026-03-05 08:34:27,False,Routine imaging,,
+ST00041,2026-01-17,CT,Spine,North Clinic,False,False,False,False,2026-01-17 03:31:58,,,2026-01-17 05:00:58,False,Routine imaging,,
+ST00042,2026-03-29,CT,Spine,North Clinic,False,False,False,False,2026-03-29 14:50:39,,,2026-03-29 15:25:39,False,Routine imaging,,
+ST00043,2026-01-26,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-26 17:58:04,,,2026-01-26 19:46:04,False,Routine imaging,,
+ST00044,2026-03-09,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-09 15:10:33,,,2026-03-09 18:34:33,False,Routine imaging,,
+ST00045,2026-02-17,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-17 06:01:35,,,2026-02-17 06:51:35,False,Routine imaging,,
+ST00046,2026-01-05,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-05 20:50:24,,,2026-01-05 23:40:24,False,Routine imaging,,
+ST00047,2026-01-06,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-01-06 12:32:20,,,2026-01-06 13:54:20,False,Routine imaging,,
+ST00048,2026-02-27,CT,Head,North Clinic,True,True,True,False,2026-02-27 18:31:56,2026-02-27 18:38:23,2026-02-27 18:49:33,2026-02-27 19:16:56,True,NCCT head,Aidoc ICH,Aidoc
+ST00049,2026-03-05,MRI,Extremity,North Clinic,False,False,False,False,2026-03-05 19:47:25,,,2026-03-05 21:42:25,False,Routine imaging,,
+ST00050,2026-01-20,MRI,Abdomen,Central Hospital,False,False,False,False,2026-01-20 19:57:30,,,2026-01-20 21:48:30,False,Routine imaging,,
+ST00051,2026-01-01,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-01 21:42:23,,,2026-01-01 22:42:23,False,Routine imaging,,
+ST00052,2026-02-22,CT,Abdomen,North Clinic,False,False,False,False,2026-02-22 04:46:44,,,2026-02-22 06:55:44,False,Routine imaging,,
+ST00053,2026-03-22,MRI,Abdomen,South Imaging Center,False,False,False,False,2026-03-22 22:45:59,,,2026-03-23 01:41:59,False,Routine imaging,,
+ST00054,2026-01-11,Ultrasound,Head,Central Hospital,False,False,False,False,2026-01-11 01:22:26,,,2026-01-11 03:04:26,False,Routine imaging,,
+ST00055,2026-03-28,CT,Extremity,North Clinic,False,False,False,False,2026-03-28 09:10:51,,,2026-03-28 10:24:51,False,Routine imaging,,
+ST00056,2026-01-28,MRI,Abdomen,Central Hospital,False,False,False,False,2026-01-28 08:32:22,,,2026-01-28 11:12:22,False,Routine imaging,,
+ST00057,2026-01-09,MRI,Abdomen,North Clinic,False,False,False,False,2026-01-09 23:04:15,,,2026-01-10 00:46:15,False,Routine imaging,,
+ST00058,2026-02-23,X-ray,Extremity,Central Hospital,False,False,False,False,2026-02-23 13:30:30,,,2026-02-23 14:07:30,False,Routine imaging,,
+ST00059,2026-01-08,Ultrasound,Head,Central Hospital,False,False,False,False,2026-01-08 07:19:51,,,2026-01-08 10:13:51,False,Routine imaging,,
+ST00060,2026-03-23,CT,Extremity,North Clinic,False,False,False,False,2026-03-23 00:44:50,,,2026-03-23 01:56:50,False,Routine imaging,,
+ST00061,2026-01-13,CT,Abdomen,Central Hospital,False,False,False,False,2026-01-13 08:58:10,,,2026-01-13 12:56:10,False,Routine imaging,,
+ST00062,2026-03-29,CT,Head,South Imaging Center,True,True,True,False,2026-03-29 06:38:46,2026-03-29 06:45:06,2026-03-29 06:57:43,2026-03-29 08:57:46,True,NCCT head,Rapid ASPECTS,RapidAI
+ST00063,2026-01-16,Ultrasound,Head,Central Hospital,False,False,False,False,2026-01-16 00:08:07,,,2026-01-16 01:24:07,False,Routine imaging,,
+ST00064,2026-03-27,CT,Head,South Imaging Center,True,True,True,False,2026-03-27 13:50:55,2026-03-27 13:58:49,2026-03-27 14:12:39,2026-03-27 17:50:55,True,NCCT head,Viz ICH,Viz.ai
+ST00065,2026-03-20,CT,Head,North Clinic,True,True,True,False,2026-03-20 17:10:58,2026-03-20 17:19:09,2026-03-20 17:25:51,2026-03-20 19:45:58,False,NCCT head,Viz ICH,Viz.ai
+ST00066,2026-02-03,CT,Head,North Clinic,True,True,True,False,2026-02-03 22:45:47,2026-02-03 22:55:13,2026-02-03 22:57:23,2026-02-04 00:31:47,True,NCCT head,Rapid ICH,RapidAI
+ST00067,2026-02-04,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-04 02:13:47,,,2026-02-04 05:41:47,False,Routine imaging,,
+ST00068,2026-02-02,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-02 03:38:06,,,2026-02-02 05:19:06,False,Routine imaging,,
+ST00069,2026-02-26,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-02-26 08:52:19,,,2026-02-26 09:36:19,False,Routine imaging,,
+ST00070,2026-02-27,CT,Abdomen,South Imaging Center,False,False,False,False,2026-02-27 22:06:42,,,2026-02-27 23:29:42,False,Routine imaging,,
+ST00071,2026-02-12,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-12 08:05:15,,,2026-02-12 11:35:15,False,Routine imaging,,
+ST00072,2026-03-14,X-ray,Head,North Clinic,False,False,False,False,2026-03-14 00:52:08,,,2026-03-14 03:00:08,False,Routine imaging,,
+ST00073,2026-01-07,Ultrasound,Abdomen,North Clinic,False,False,False,False,2026-01-07 19:03:02,,,2026-01-07 22:17:02,False,Routine imaging,,
+ST00074,2026-03-06,X-ray,Abdomen,North Clinic,False,False,False,False,2026-03-06 09:48:17,,,2026-03-06 12:32:17,False,Routine imaging,,
+ST00075,2026-03-06,CT,Spine,North Clinic,False,False,False,False,2026-03-06 17:58:23,,,2026-03-06 21:31:23,False,Routine imaging,,
+ST00076,2026-02-23,CT,Spine,North Clinic,False,False,False,False,2026-02-23 19:52:28,,,2026-02-23 23:17:28,False,Routine imaging,,
+ST00077,2026-03-07,X-ray,Head,South Imaging Center,False,False,False,False,2026-03-07 18:15:54,,,2026-03-07 21:27:54,False,Routine imaging,,
+ST00078,2026-01-30,CT,Chest,North Clinic,True,True,True,False,2026-01-30 05:15:50,2026-01-30 05:24:17,2026-01-30 05:27:59,2026-01-30 08:25:50,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00079,2026-02-12,CT,Head,South Imaging Center,True,True,True,False,2026-02-12 21:26:09,2026-02-12 21:32:25,2026-02-12 21:42:49,2026-02-12 23:13:09,False,NCCT head,Rapid ASPECTS,RapidAI
+ST00080,2026-03-02,CT,Head,North Clinic,True,True,True,False,2026-03-02 02:58:56,2026-03-02 03:05:50,2026-03-02 03:15:59,2026-03-02 03:39:56,True,NCCT head,Viz ICH,Viz.ai
+ST00081,2026-03-01,X-ray,Chest,North Clinic,False,False,False,False,2026-03-01 08:22:17,,,2026-03-01 10:53:17,False,Routine imaging,,
+ST00082,2026-03-28,MRI,Head,Central Hospital,True,True,True,False,2026-03-28 00:50:55,2026-03-28 00:57:17,2026-03-28 01:03:51,2026-03-28 02:02:55,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00083,2026-03-28,X-ray,Chest,North Clinic,False,False,False,False,2026-03-28 16:02:53,,,2026-03-28 19:56:53,False,Routine imaging,,
+ST00084,2026-01-22,CT,Extremity,Central Hospital,False,False,False,False,2026-01-22 05:56:12,,,2026-01-22 08:29:12,False,Routine imaging,,
+ST00085,2026-02-24,CT,Chest,North Clinic,True,False,False,False,2026-02-24 02:50:58,,,2026-02-24 05:57:58,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00086,2026-03-01,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-03-01 11:35:00,,,2026-03-01 13:59:00,False,Routine imaging,,
+ST00087,2026-02-13,X-ray,Spine,North Clinic,False,False,False,False,2026-02-13 07:03:14,,,2026-02-13 09:33:14,False,Routine imaging,,
+ST00088,2026-03-14,CT,Abdomen,South Imaging Center,False,False,False,False,2026-03-14 23:46:00,,,2026-03-15 01:31:00,False,Routine imaging,,
+ST00089,2026-01-28,CT,Abdomen,Central Hospital,False,False,False,False,2026-01-28 17:47:41,,,2026-01-28 19:21:41,False,Routine imaging,,
+ST00090,2026-03-10,CT,Spine,North Clinic,False,False,False,False,2026-03-10 14:04:33,,,2026-03-10 16:23:33,False,Routine imaging,,
+ST00091,2026-02-22,MRI,Chest,Central Hospital,False,False,False,False,2026-02-22 16:22:32,,,2026-02-22 19:26:32,False,Routine imaging,,
+ST00092,2026-03-25,X-ray,Extremity,North Clinic,False,False,False,False,2026-03-25 04:19:49,,,2026-03-25 06:31:49,False,Routine imaging,,
+ST00093,2026-01-01,Ultrasound,Abdomen,North Clinic,False,False,False,False,2026-01-01 13:44:19,,,2026-01-01 17:31:19,False,Routine imaging,,
+ST00094,2026-03-24,X-ray,Spine,South Imaging Center,False,False,False,False,2026-03-24 20:40:40,,,2026-03-24 23:32:40,False,Routine imaging,,
+ST00095,2026-03-13,MRI,Extremity,North Clinic,False,False,False,False,2026-03-13 07:49:17,,,2026-03-13 09:20:17,False,Routine imaging,,
+ST00096,2026-01-22,CT,Spine,North Clinic,False,False,False,False,2026-01-22 07:17:22,,,2026-01-22 07:59:22,False,Routine imaging,,
+ST00097,2026-02-02,MRI,Spine,Central Hospital,False,False,False,False,2026-02-02 15:14:18,,,2026-02-02 18:54:18,False,Routine imaging,,
+ST00098,2026-03-23,MRI,Head,Central Hospital,True,True,True,False,2026-03-23 14:31:12,2026-03-23 14:38:56,2026-03-23 14:53:35,2026-03-23 17:22:12,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00099,2026-03-30,CT,Extremity,Central Hospital,False,False,False,False,2026-03-30 01:17:50,,,2026-03-30 04:41:50,False,Routine imaging,,
+ST00100,2026-01-09,MRI,Head,Central Hospital,True,False,False,False,2026-01-09 03:36:42,,,2026-01-09 04:57:42,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00101,2026-01-26,CT,Head,North Clinic,True,True,False,True,2026-01-26 06:12:29,2026-01-26 06:14:15,,2026-01-26 07:58:29,False,NCCT head,Rapid ASPECTS,RapidAI
+ST00102,2026-01-25,X-ray,Spine,South Imaging Center,False,False,False,False,2026-01-25 11:50:06,,,2026-01-25 12:29:06,False,Routine imaging,,
+ST00103,2026-02-22,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-22 08:56:14,,,2026-02-22 09:41:14,False,Routine imaging,,
+ST00104,2026-01-20,X-ray,Extremity,Central Hospital,False,False,False,False,2026-01-20 08:32:38,,,2026-01-20 09:46:38,False,Routine imaging,,
+ST00105,2026-01-13,MRI,Chest,South Imaging Center,False,False,False,False,2026-01-13 06:06:58,,,2026-01-13 09:57:58,False,Routine imaging,,
+ST00106,2026-02-28,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-28 22:59:21,,,2026-03-01 02:53:21,False,Routine imaging,,
+ST00107,2026-01-31,CT,Chest,South Imaging Center,False,False,False,False,2026-01-31 04:46:23,,,2026-01-31 07:48:23,False,Routine imaging,,
+ST00108,2026-03-30,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-03-30 03:51:15,,,2026-03-30 07:29:15,False,Routine imaging,,
+ST00109,2026-01-08,MRI,Head,South Imaging Center,True,True,True,False,2026-01-08 09:05:04,2026-01-08 09:06:58,2026-01-08 09:11:12,2026-01-08 10:10:04,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00110,2026-03-17,CT,Extremity,South Imaging Center,False,False,False,False,2026-03-17 23:40:21,,,2026-03-18 02:04:21,False,Routine imaging,,
+ST00111,2026-02-05,CT,Abdomen,South Imaging Center,False,False,False,False,2026-02-05 23:29:33,,,2026-02-06 01:54:33,False,Routine imaging,,
+ST00112,2026-03-28,X-ray,Head,Central Hospital,False,False,False,False,2026-03-28 13:31:13,,,2026-03-28 15:57:13,False,Routine imaging,,
+ST00113,2026-03-13,MRI,Abdomen,South Imaging Center,False,False,False,False,2026-03-13 05:52:01,,,2026-03-13 08:18:01,False,Routine imaging,,
+ST00114,2026-01-27,CT,Head,North Clinic,True,True,True,False,2026-01-27 01:24:24,2026-01-27 01:34:44,2026-01-27 01:38:55,2026-01-27 02:21:24,False,NCCT head,Rapid ICH,RapidAI
+ST00115,2026-03-27,MRI,Spine,South Imaging Center,False,False,False,False,2026-03-27 14:20:58,,,2026-03-27 17:20:58,False,Routine imaging,,
+ST00116,2026-03-06,CT,Chest,North Clinic,True,True,False,True,2026-03-06 20:59:31,2026-03-06 21:05:03,,2026-03-06 23:04:31,False,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00117,2026-01-28,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-01-28 03:39:05,,,2026-01-28 06:36:05,False,Routine imaging,,
+ST00118,2026-02-20,Ultrasound,Chest,South Imaging Center,False,False,False,False,2026-02-20 03:49:43,,,2026-02-20 05:25:43,False,Routine imaging,,
+ST00119,2026-02-09,MRI,Head,North Clinic,True,True,True,False,2026-02-09 11:02:46,2026-02-09 11:11:43,2026-02-09 11:21:14,2026-02-09 14:59:46,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00120,2026-01-22,CT,Head,South Imaging Center,True,True,True,False,2026-01-22 12:21:25,2026-01-22 12:29:46,2026-01-22 12:34:56,2026-01-22 15:11:25,True,NCCT head,Rapid ICH,RapidAI
+ST00121,2026-02-23,CT,Spine,North Clinic,False,False,False,False,2026-02-23 10:29:53,,,2026-02-23 12:13:53,False,Routine imaging,,
+ST00122,2026-01-25,CT,Head,Central Hospital,True,True,True,False,2026-01-25 09:48:46,2026-01-25 09:54:09,2026-01-25 09:56:20,2026-01-25 13:19:46,True,NCCT head,Aidoc ICH,Aidoc
+ST00123,2026-03-13,MRI,Extremity,South Imaging Center,False,False,False,False,2026-03-13 17:04:24,,,2026-03-13 20:53:24,False,Routine imaging,,
+ST00124,2026-02-27,CT,Chest,Central Hospital,True,False,False,False,2026-02-27 22:37:23,,,2026-02-28 00:27:23,False,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00125,2026-02-05,CT,Chest,Central Hospital,True,False,False,False,2026-02-05 00:54:49,,,2026-02-05 03:50:49,False,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00126,2026-03-03,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-03 22:20:38,,,2026-03-03 23:21:38,False,Routine imaging,,
+ST00127,2026-02-25,CT,Spine,North Clinic,False,False,False,False,2026-02-25 17:39:59,,,2026-02-25 20:06:59,False,Routine imaging,,
+ST00128,2026-01-18,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-01-18 21:35:54,,,2026-01-19 00:12:54,False,Routine imaging,,
+ST00129,2026-03-21,CT,Spine,South Imaging Center,False,False,False,False,2026-03-21 19:40:05,,,2026-03-21 20:33:05,False,Routine imaging,,
+ST00130,2026-03-03,MRI,Head,North Clinic,True,True,True,False,2026-03-03 02:42:53,2026-03-03 02:52:48,2026-03-03 02:54:17,2026-03-03 04:20:53,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00131,2026-02-28,MRI,Extremity,South Imaging Center,False,False,False,False,2026-02-28 20:49:21,,,2026-02-28 22:21:21,False,Routine imaging,,
+ST00132,2026-02-06,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-06 22:20:42,,,2026-02-07 00:11:42,False,Routine imaging,,
+ST00133,2026-02-11,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-11 15:14:45,,,2026-02-11 16:04:45,False,Routine imaging,,
+ST00134,2026-03-13,CT,Head,Central Hospital,True,True,True,False,2026-03-13 20:31:59,2026-03-13 20:43:57,2026-03-13 20:55:02,2026-03-13 22:07:59,False,NCCT head,Rapid ICH,RapidAI
+ST00135,2026-01-16,CT,Spine,South Imaging Center,False,False,False,False,2026-01-16 04:44:50,,,2026-01-16 08:15:50,False,Routine imaging,,
+ST00136,2026-02-15,CT,Head,North Clinic,True,False,False,False,2026-02-15 14:58:31,,,2026-02-15 15:51:31,False,NCCT head,Viz ICH,Viz.ai
+ST00137,2026-03-18,X-ray,Extremity,Central Hospital,False,False,False,False,2026-03-18 11:46:20,,,2026-03-18 15:10:20,False,Routine imaging,,
+ST00138,2026-02-11,CT,Head,North Clinic,True,True,True,False,2026-02-11 06:38:44,2026-02-11 06:48:34,2026-02-11 06:59:33,2026-02-11 07:28:44,True,NCCT head,Aidoc ICH,Aidoc
+ST00139,2026-02-27,X-ray,Extremity,North Clinic,False,False,False,False,2026-02-27 18:33:11,,,2026-02-27 20:21:11,False,Routine imaging,,
+ST00140,2026-01-13,MRI,Abdomen,Central Hospital,False,False,False,False,2026-01-13 01:45:54,,,2026-01-13 04:12:54,False,Routine imaging,,
+ST00141,2026-03-28,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-28 08:30:19,,,2026-03-28 11:32:19,False,Routine imaging,,
+ST00142,2026-03-16,MRI,Abdomen,Central Hospital,False,False,False,False,2026-03-16 06:01:15,,,2026-03-16 08:29:15,False,Routine imaging,,
+ST00143,2026-02-26,CT,Spine,North Clinic,False,False,False,False,2026-02-26 19:55:00,,,2026-02-26 20:53:00,False,Routine imaging,,
+ST00144,2026-02-03,CT,Abdomen,North Clinic,False,False,False,False,2026-02-03 18:48:28,,,2026-02-03 21:29:28,False,Routine imaging,,
+ST00145,2026-03-20,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-20 23:44:46,,,2026-03-21 02:15:46,False,Routine imaging,,
+ST00146,2026-01-31,CT,Chest,South Imaging Center,True,True,True,False,2026-01-31 12:52:41,2026-01-31 12:59:38,2026-01-31 13:06:03,2026-01-31 15:10:41,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00147,2026-03-22,Ultrasound,Extremity,North Clinic,False,False,False,False,2026-03-22 02:13:10,,,2026-03-22 04:46:10,False,Routine imaging,,
+ST00148,2026-01-06,CT,Abdomen,South Imaging Center,False,False,False,False,2026-01-06 06:18:16,,,2026-01-06 07:06:16,False,Routine imaging,,
+ST00149,2026-01-13,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-13 17:16:58,,,2026-01-13 20:49:58,False,Routine imaging,,
+ST00150,2026-01-12,CT,Extremity,Central Hospital,False,False,False,False,2026-01-12 18:56:35,,,2026-01-12 22:55:35,False,Routine imaging,,
+ST00151,2026-03-10,CT,Extremity,South Imaging Center,False,False,False,False,2026-03-10 21:54:49,,,2026-03-10 22:32:49,False,Routine imaging,,
+ST00152,2026-02-09,CT,Chest,North Clinic,True,False,False,False,2026-02-09 14:41:13,,,2026-02-09 17:23:13,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00153,2026-02-19,X-ray,Spine,North Clinic,False,False,False,False,2026-02-19 09:45:27,,,2026-02-19 12:23:27,False,Routine imaging,,
+ST00154,2026-01-24,MRI,Head,North Clinic,True,False,False,False,2026-01-24 15:56:03,,,2026-01-24 16:48:03,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00155,2026-02-02,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-02-02 23:58:00,,,2026-02-03 01:41:00,False,Routine imaging,,
+ST00156,2026-01-28,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-28 11:03:45,,,2026-01-28 14:06:45,False,Routine imaging,,
+ST00157,2026-02-17,X-ray,Spine,North Clinic,False,False,False,False,2026-02-17 12:56:40,,,2026-02-17 15:48:40,False,Routine imaging,,
+ST00158,2026-02-03,CT,Extremity,North Clinic,False,False,False,False,2026-02-03 12:11:49,,,2026-02-03 14:22:49,False,Routine imaging,,
+ST00159,2026-02-01,X-ray,Head,North Clinic,False,False,False,False,2026-02-01 05:47:44,,,2026-02-01 08:48:44,False,Routine imaging,,
+ST00160,2026-01-23,X-ray,Spine,North Clinic,False,False,False,False,2026-01-23 16:14:23,,,2026-01-23 17:00:23,False,Routine imaging,,
+ST00161,2026-03-14,MRI,Spine,South Imaging Center,False,False,False,False,2026-03-14 07:17:19,,,2026-03-14 09:30:19,False,Routine imaging,,
+ST00162,2026-03-18,X-ray,Head,Central Hospital,False,False,False,False,2026-03-18 22:24:39,,,2026-03-19 01:05:39,False,Routine imaging,,
+ST00163,2026-01-13,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-13 06:10:30,,,2026-01-13 08:09:30,False,Routine imaging,,
+ST00164,2026-03-26,X-ray,Chest,North Clinic,False,False,False,False,2026-03-26 21:00:40,,,2026-03-26 23:49:40,False,Routine imaging,,
+ST00165,2026-01-02,X-ray,Spine,Central Hospital,False,False,False,False,2026-01-02 11:45:44,,,2026-01-02 15:07:44,False,Routine imaging,,
+ST00166,2026-01-08,MRI,Abdomen,South Imaging Center,False,False,False,False,2026-01-08 06:21:44,,,2026-01-08 08:20:44,False,Routine imaging,,
+ST00167,2026-02-06,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-02-06 21:29:09,,,2026-02-07 00:22:09,False,Routine imaging,,
+ST00168,2026-03-01,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-01 22:47:05,,,2026-03-02 02:33:05,False,Routine imaging,,
+ST00169,2026-02-12,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-12 03:13:36,,,2026-02-12 05:41:36,False,Routine imaging,,
+ST00170,2026-03-09,CT,Chest,South Imaging Center,False,False,False,False,2026-03-09 09:08:23,,,2026-03-09 11:33:23,False,Routine imaging,,
+ST00171,2026-02-10,MRI,Head,North Clinic,True,False,False,False,2026-02-10 00:09:00,,,2026-02-10 03:22:00,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00172,2026-03-30,MRI,Head,North Clinic,True,True,True,False,2026-03-30 15:02:44,2026-03-30 15:12:25,2026-03-30 15:16:56,2026-03-30 15:39:44,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00173,2026-03-29,CT,Extremity,Central Hospital,False,False,False,False,2026-03-29 11:58:12,,,2026-03-29 13:13:12,False,Routine imaging,,
+ST00174,2026-02-12,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-02-12 21:18:17,,,2026-02-12 23:09:17,False,Routine imaging,,
+ST00175,2026-02-11,MRI,Spine,Central Hospital,False,False,False,False,2026-02-11 04:42:41,,,2026-02-11 06:34:41,False,Routine imaging,,
+ST00176,2026-02-07,X-ray,Chest,North Clinic,False,False,False,False,2026-02-07 08:24:00,,,2026-02-07 09:59:00,False,Routine imaging,,
+ST00177,2026-02-25,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-25 12:40:35,,,2026-02-25 14:30:35,False,Routine imaging,,
+ST00178,2026-03-22,MRI,Abdomen,North Clinic,False,False,False,False,2026-03-22 14:07:39,,,2026-03-22 17:17:39,False,Routine imaging,,
+ST00179,2026-03-17,X-ray,Extremity,North Clinic,False,False,False,False,2026-03-17 07:36:26,,,2026-03-17 11:36:26,False,Routine imaging,,
+ST00180,2026-01-22,MRI,Extremity,South Imaging Center,False,False,False,False,2026-01-22 06:19:03,,,2026-01-22 07:58:03,False,Routine imaging,,
+ST00181,2026-03-15,X-ray,Head,Central Hospital,False,False,False,False,2026-03-15 08:37:21,,,2026-03-15 11:52:21,False,Routine imaging,,
+ST00182,2026-03-29,MRI,Chest,South Imaging Center,False,False,False,False,2026-03-29 17:04:59,,,2026-03-29 19:12:59,False,Routine imaging,,
+ST00183,2026-01-13,CT,Abdomen,North Clinic,False,False,False,False,2026-01-13 18:12:42,,,2026-01-13 22:08:42,False,Routine imaging,,
+ST00184,2026-02-21,MRI,Abdomen,North Clinic,False,False,False,False,2026-02-21 12:58:32,,,2026-02-21 14:38:32,False,Routine imaging,,
+ST00185,2026-03-20,CT,Abdomen,South Imaging Center,False,False,False,False,2026-03-20 07:15:15,,,2026-03-20 11:03:15,False,Routine imaging,,
+ST00186,2026-03-12,MRI,Spine,South Imaging Center,False,False,False,False,2026-03-12 07:32:50,,,2026-03-12 11:32:50,False,Routine imaging,,
+ST00187,2026-02-05,CT,Spine,North Clinic,False,False,False,False,2026-02-05 12:19:03,,,2026-02-05 12:57:03,False,Routine imaging,,
+ST00188,2026-02-22,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-22 02:18:14,,,2026-02-22 05:36:14,False,Routine imaging,,
+ST00189,2026-03-07,CT,Chest,South Imaging Center,True,True,True,False,2026-03-07 12:28:59,2026-03-07 12:34:21,2026-03-07 12:41:04,2026-03-07 13:59:59,True,CT pulmonary angiography,Viz PE,Viz.ai
+ST00190,2026-03-21,MRI,Abdomen,Central Hospital,False,False,False,False,2026-03-21 23:43:19,,,2026-03-22 01:35:19,False,Routine imaging,,
+ST00191,2026-01-10,CT,Extremity,North Clinic,False,False,False,False,2026-01-10 10:28:25,,,2026-01-10 11:37:25,False,Routine imaging,,
+ST00192,2026-02-14,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-14 01:03:59,,,2026-02-14 03:25:59,False,Routine imaging,,
+ST00193,2026-03-14,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-14 01:36:43,,,2026-03-14 04:58:43,False,Routine imaging,,
+ST00194,2026-03-22,MRI,Spine,Central Hospital,False,False,False,False,2026-03-22 22:38:44,,,2026-03-23 00:24:44,False,Routine imaging,,
+ST00195,2026-03-09,CT,Spine,Central Hospital,False,False,False,False,2026-03-09 00:28:13,,,2026-03-09 02:56:13,False,Routine imaging,,
+ST00196,2026-03-25,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-25 01:20:36,,,2026-03-25 03:05:36,False,Routine imaging,,
+ST00197,2026-03-24,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-24 08:03:37,,,2026-03-24 11:27:37,False,Routine imaging,,
+ST00198,2026-03-04,MRI,Chest,Central Hospital,False,False,False,False,2026-03-04 07:16:47,,,2026-03-04 11:12:47,False,Routine imaging,,
+ST00199,2026-03-22,X-ray,Head,Central Hospital,False,False,False,False,2026-03-22 13:36:56,,,2026-03-22 16:41:56,False,Routine imaging,,
+ST00200,2026-03-20,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-03-20 22:33:02,,,2026-03-21 02:26:02,False,Routine imaging,,
+ST00201,2026-03-18,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-03-18 13:40:23,,,2026-03-18 15:25:23,False,Routine imaging,,
+ST00202,2026-01-13,MRI,Head,South Imaging Center,True,True,True,False,2026-01-13 14:54:13,2026-01-13 15:03:16,2026-01-13 15:15:04,2026-01-13 18:51:13,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00203,2026-02-01,CT,Abdomen,North Clinic,False,False,False,False,2026-02-01 10:26:31,,,2026-02-01 14:11:31,False,Routine imaging,,
+ST00204,2026-03-17,CT,Extremity,North Clinic,False,False,False,False,2026-03-17 12:54:39,,,2026-03-17 13:56:39,False,Routine imaging,,
+ST00205,2026-02-18,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-18 22:01:45,,,2026-02-18 22:47:45,False,Routine imaging,,
+ST00206,2026-03-18,Ultrasound,Extremity,North Clinic,False,False,False,False,2026-03-18 01:03:04,,,2026-03-18 02:55:04,False,Routine imaging,,
+ST00207,2026-03-04,Ultrasound,Chest,North Clinic,False,False,False,False,2026-03-04 11:05:32,,,2026-03-04 13:42:32,False,Routine imaging,,
+ST00208,2026-02-11,MRI,Spine,North Clinic,False,False,False,False,2026-02-11 09:17:22,,,2026-02-11 12:54:22,False,Routine imaging,,
+ST00209,2026-01-08,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-01-08 03:14:44,,,2026-01-08 06:24:44,False,Routine imaging,,
+ST00210,2026-01-07,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-07 09:03:02,,,2026-01-07 12:20:02,False,Routine imaging,,
+ST00211,2026-02-23,X-ray,Spine,South Imaging Center,False,False,False,False,2026-02-23 05:45:47,,,2026-02-23 08:52:47,False,Routine imaging,,
+ST00212,2026-01-29,MRI,Extremity,Central Hospital,False,False,False,False,2026-01-29 15:09:41,,,2026-01-29 17:34:41,False,Routine imaging,,
+ST00213,2026-03-19,X-ray,Extremity,Central Hospital,False,False,False,False,2026-03-19 00:02:52,,,2026-03-19 03:41:52,False,Routine imaging,,
+ST00214,2026-02-11,MRI,Head,North Clinic,True,True,True,False,2026-02-11 18:08:08,2026-02-11 18:11:33,2026-02-11 18:13:55,2026-02-11 19:07:08,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00215,2026-03-06,CT,Head,Central Hospital,True,True,True,False,2026-03-06 13:48:49,2026-03-06 13:55:42,2026-03-06 14:01:09,2026-03-06 14:44:49,False,NCCT head,Rapid ASPECTS,RapidAI
+ST00216,2026-03-14,X-ray,Head,Central Hospital,False,False,False,False,2026-03-14 07:01:04,,,2026-03-14 09:58:04,False,Routine imaging,,
+ST00217,2026-02-26,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-02-26 22:33:45,,,2026-02-27 00:32:45,False,Routine imaging,,
+ST00218,2026-01-12,CT,Spine,Central Hospital,False,False,False,False,2026-01-12 20:49:10,,,2026-01-13 00:28:10,False,Routine imaging,,
+ST00219,2026-01-28,MRI,Abdomen,Central Hospital,False,False,False,False,2026-01-28 22:13:30,,,2026-01-29 00:51:30,False,Routine imaging,,
+ST00220,2026-02-03,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-03 23:49:29,,,2026-02-04 00:53:29,False,Routine imaging,,
+ST00221,2026-02-25,CT,Spine,South Imaging Center,False,False,False,False,2026-02-25 17:44:59,,,2026-02-25 20:42:59,False,Routine imaging,,
+ST00222,2026-03-01,MRI,Extremity,South Imaging Center,False,False,False,False,2026-03-01 13:43:45,,,2026-03-01 14:24:45,False,Routine imaging,,
+ST00223,2026-03-05,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-03-05 20:51:28,,,2026-03-05 21:33:28,False,Routine imaging,,
+ST00224,2026-01-27,X-ray,Abdomen,North Clinic,False,False,False,False,2026-01-27 12:45:58,,,2026-01-27 14:46:58,False,Routine imaging,,
+ST00225,2026-01-01,CT,Head,Central Hospital,True,True,True,False,2026-01-01 14:13:39,2026-01-01 14:17:15,2026-01-01 14:24:33,2026-01-01 17:30:39,True,NCCT head,Aidoc ICH,Aidoc
+ST00226,2026-03-14,MRI,Spine,North Clinic,False,False,False,False,2026-03-14 10:33:59,,,2026-03-14 12:55:59,False,Routine imaging,,
+ST00227,2026-02-03,CT,Abdomen,South Imaging Center,False,False,False,False,2026-02-03 02:20:42,,,2026-02-03 03:34:42,False,Routine imaging,,
+ST00228,2026-01-05,MRI,Abdomen,South Imaging Center,False,False,False,False,2026-01-05 19:57:18,,,2026-01-05 22:18:18,False,Routine imaging,,
+ST00229,2026-01-12,CT,Chest,Central Hospital,False,False,False,False,2026-01-12 01:12:50,,,2026-01-12 04:37:50,False,Routine imaging,,
+ST00230,2026-02-08,Ultrasound,Chest,Central Hospital,False,False,False,False,2026-02-08 09:01:49,,,2026-02-08 09:37:49,False,Routine imaging,,
+ST00231,2026-01-30,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-30 06:21:28,,,2026-01-30 10:11:28,False,Routine imaging,,
+ST00232,2026-01-29,CT,Chest,South Imaging Center,True,True,True,False,2026-01-29 02:27:38,2026-01-29 02:33:22,2026-01-29 02:37:18,2026-01-29 05:18:38,True,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00233,2026-02-24,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-24 05:55:12,,,2026-02-24 06:48:12,False,Routine imaging,,
+ST00234,2026-03-25,X-ray,Spine,North Clinic,False,False,False,False,2026-03-25 16:03:23,,,2026-03-25 16:42:23,False,Routine imaging,,
+ST00235,2026-03-31,CT,Abdomen,North Clinic,False,False,False,False,2026-03-31 10:27:50,,,2026-03-31 12:48:50,False,Routine imaging,,
+ST00236,2026-01-03,Ultrasound,Head,South Imaging Center,False,False,False,False,2026-01-03 00:35:57,,,2026-01-03 04:35:57,False,Routine imaging,,
+ST00237,2026-02-14,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-14 16:06:12,,,2026-02-14 17:03:12,False,Routine imaging,,
+ST00238,2026-03-23,CT,Spine,North Clinic,False,False,False,False,2026-03-23 23:47:28,,,2026-03-24 02:52:28,False,Routine imaging,,
+ST00239,2026-02-20,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-20 20:55:16,,,2026-02-20 21:49:16,False,Routine imaging,,
+ST00240,2026-02-21,MRI,Abdomen,Central Hospital,False,False,False,False,2026-02-21 12:23:55,,,2026-02-21 13:24:55,False,Routine imaging,,
+ST00241,2026-01-17,MRI,Chest,North Clinic,False,False,False,False,2026-01-17 20:16:55,,,2026-01-17 23:15:55,False,Routine imaging,,
+ST00242,2026-03-08,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-08 03:09:21,,,2026-03-08 06:28:21,False,Routine imaging,,
+ST00243,2026-03-02,CT,Abdomen,South Imaging Center,False,False,False,False,2026-03-02 15:14:28,,,2026-03-02 17:06:28,False,Routine imaging,,
+ST00244,2026-01-06,CT,Chest,North Clinic,True,False,False,False,2026-01-06 10:53:25,,,2026-01-06 13:02:25,False,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00245,2026-01-08,MRI,Chest,South Imaging Center,False,False,False,False,2026-01-08 10:47:46,,,2026-01-08 13:43:46,False,Routine imaging,,
+ST00246,2026-03-28,CT,Extremity,Central Hospital,False,False,False,False,2026-03-28 23:32:39,,,2026-03-29 02:53:39,False,Routine imaging,,
+ST00247,2026-02-01,MRI,Extremity,Central Hospital,False,False,False,False,2026-02-01 05:12:41,,,2026-02-01 06:25:41,False,Routine imaging,,
+ST00248,2026-02-13,CT,Abdomen,South Imaging Center,False,False,False,False,2026-02-13 17:47:41,,,2026-02-13 18:43:41,False,Routine imaging,,
+ST00249,2026-03-04,CT,Head,North Clinic,True,True,True,False,2026-03-04 17:35:06,2026-03-04 17:37:17,2026-03-04 17:40:54,2026-03-04 18:50:06,True,NCCT head,Viz ICH,Viz.ai
+ST00250,2026-02-07,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-07 14:44:45,,,2026-02-07 16:44:45,False,Routine imaging,,
+ST00251,2026-02-24,MRI,Abdomen,South Imaging Center,False,False,False,False,2026-02-24 04:08:54,,,2026-02-24 05:21:54,False,Routine imaging,,
+ST00252,2026-03-06,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-06 10:19:41,,,2026-03-06 11:27:41,False,Routine imaging,,
+ST00253,2026-01-31,MRI,Abdomen,Central Hospital,False,False,False,False,2026-01-31 01:22:41,,,2026-01-31 04:52:41,False,Routine imaging,,
+ST00254,2026-03-04,MRI,Extremity,Central Hospital,False,False,False,False,2026-03-04 17:20:48,,,2026-03-04 19:27:48,False,Routine imaging,,
+ST00255,2026-02-05,CT,Head,Central Hospital,True,True,True,False,2026-02-05 04:54:49,2026-02-05 05:00:33,2026-02-05 05:07:05,2026-02-05 06:08:49,True,NCCT head,Rapid ICH,RapidAI
+ST00256,2026-02-19,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-02-19 07:00:09,,,2026-02-19 07:44:09,False,Routine imaging,,
+ST00257,2026-02-02,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-02-02 16:43:04,,,2026-02-02 17:51:04,False,Routine imaging,,
+ST00258,2026-02-06,CT,Head,South Imaging Center,True,True,True,False,2026-02-06 13:49:15,2026-02-06 13:54:33,2026-02-06 14:06:57,2026-02-06 17:41:15,True,NCCT head,Aidoc ICH,Aidoc
+ST00259,2026-03-20,Ultrasound,Spine,North Clinic,False,False,False,False,2026-03-20 13:12:30,,,2026-03-20 13:58:30,False,Routine imaging,,
+ST00260,2026-02-05,MRI,Head,North Clinic,True,True,False,True,2026-02-05 08:52:44,2026-02-05 09:03:10,,2026-02-05 12:03:44,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00261,2026-03-15,X-ray,Spine,South Imaging Center,False,False,False,False,2026-03-15 01:11:54,,,2026-03-15 02:45:54,False,Routine imaging,,
+ST00262,2026-01-24,CT,Spine,North Clinic,False,False,False,False,2026-01-24 05:18:10,,,2026-01-24 06:42:10,False,Routine imaging,,
+ST00263,2026-03-07,Ultrasound,Spine,North Clinic,False,False,False,False,2026-03-07 20:34:10,,,2026-03-07 23:07:10,False,Routine imaging,,
+ST00264,2026-03-17,CT,Extremity,Central Hospital,False,False,False,False,2026-03-17 13:09:37,,,2026-03-17 15:31:37,False,Routine imaging,,
+ST00265,2026-03-21,CT,Extremity,North Clinic,False,False,False,False,2026-03-21 07:29:40,,,2026-03-21 08:39:40,False,Routine imaging,,
+ST00266,2026-01-06,MRI,Abdomen,Central Hospital,False,False,False,False,2026-01-06 01:35:15,,,2026-01-06 02:41:15,False,Routine imaging,,
+ST00267,2026-01-27,CT,Extremity,North Clinic,False,False,False,False,2026-01-27 11:38:59,,,2026-01-27 12:50:59,False,Routine imaging,,
+ST00268,2026-01-09,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-09 21:42:29,,,2026-01-10 00:12:29,False,Routine imaging,,
+ST00269,2026-01-03,CT,Spine,North Clinic,False,False,False,False,2026-01-03 14:08:45,,,2026-01-03 16:51:45,False,Routine imaging,,
+ST00270,2026-01-23,CT,Chest,Central Hospital,True,True,True,False,2026-01-23 21:24:09,2026-01-23 21:32:32,2026-01-23 21:34:59,2026-01-24 01:01:09,True,CT pulmonary angiography,Viz PE,Viz.ai
+ST00271,2026-01-14,CT,Spine,Central Hospital,False,False,False,False,2026-01-14 08:37:49,,,2026-01-14 12:10:49,False,Routine imaging,,
+ST00272,2026-03-15,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-15 16:13:40,,,2026-03-15 19:25:40,False,Routine imaging,,
+ST00273,2026-03-29,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-29 22:48:03,,,2026-03-30 01:58:03,False,Routine imaging,,
+ST00274,2026-03-17,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-17 08:36:47,,,2026-03-17 11:50:47,False,Routine imaging,,
+ST00275,2026-03-23,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-03-23 05:37:25,,,2026-03-23 08:29:25,False,Routine imaging,,
+ST00276,2026-03-03,MRI,Head,North Clinic,True,True,True,False,2026-03-03 08:33:42,2026-03-03 08:44:51,2026-03-03 08:54:49,2026-03-03 10:38:42,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00277,2026-01-19,MRI,Chest,South Imaging Center,False,False,False,False,2026-01-19 04:28:22,,,2026-01-19 07:22:22,False,Routine imaging,,
+ST00278,2026-02-23,CT,Spine,South Imaging Center,False,False,False,False,2026-02-23 19:16:03,,,2026-02-23 20:02:03,False,Routine imaging,,
+ST00279,2026-02-07,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-02-07 13:29:55,,,2026-02-07 17:15:55,False,Routine imaging,,
+ST00280,2026-02-04,X-ray,Abdomen,South Imaging Center,False,False,False,False,2026-02-04 16:05:20,,,2026-02-04 17:41:20,False,Routine imaging,,
+ST00281,2026-03-05,MRI,Extremity,North Clinic,False,False,False,False,2026-03-05 19:09:51,,,2026-03-05 22:52:51,False,Routine imaging,,
+ST00282,2026-01-13,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-13 22:52:00,,,2026-01-14 00:53:00,False,Routine imaging,,
+ST00283,2026-01-17,X-ray,Spine,North Clinic,False,False,False,False,2026-01-17 23:59:14,,,2026-01-18 03:32:14,False,Routine imaging,,
+ST00284,2026-03-03,CT,Head,Central Hospital,True,True,True,False,2026-03-03 08:03:04,2026-03-03 08:07:44,2026-03-03 08:20:58,2026-03-03 09:29:04,True,NCCT head,Viz ICH,Viz.ai
+ST00285,2026-03-18,CT,Chest,Central Hospital,True,True,True,False,2026-03-18 19:25:05,2026-03-18 19:30:08,2026-03-18 19:38:12,2026-03-18 22:19:05,True,CT pulmonary angiography,Viz PE,Viz.ai
+ST00286,2026-03-15,MRI,Abdomen,North Clinic,False,False,False,False,2026-03-15 03:17:42,,,2026-03-15 05:01:42,False,Routine imaging,,
+ST00287,2026-02-12,X-ray,Spine,North Clinic,False,False,False,False,2026-02-12 10:10:13,,,2026-02-12 12:23:13,False,Routine imaging,,
+ST00288,2026-01-19,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-19 03:18:56,,,2026-01-19 05:27:56,False,Routine imaging,,
+ST00289,2026-01-26,X-ray,Spine,North Clinic,False,False,False,False,2026-01-26 21:30:15,,,2026-01-26 22:25:15,False,Routine imaging,,
+ST00290,2026-02-28,Ultrasound,Head,North Clinic,False,False,False,False,2026-02-28 11:49:04,,,2026-02-28 14:43:04,False,Routine imaging,,
+ST00291,2026-02-01,CT,Abdomen,North Clinic,False,False,False,False,2026-02-01 04:28:36,,,2026-02-01 06:52:36,False,Routine imaging,,
+ST00292,2026-02-04,CT,Abdomen,South Imaging Center,False,False,False,False,2026-02-04 03:09:49,,,2026-02-04 03:58:49,False,Routine imaging,,
+ST00293,2026-02-09,CT,Head,South Imaging Center,True,True,True,False,2026-02-09 10:32:18,2026-02-09 10:34:30,2026-02-09 10:48:15,2026-02-09 11:43:18,True,NCCT head,Rapid ASPECTS,RapidAI
+ST00294,2026-03-07,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-07 20:03:41,,,2026-03-07 21:10:41,False,Routine imaging,,
+ST00295,2026-01-23,X-ray,Abdomen,North Clinic,False,False,False,False,2026-01-23 21:54:32,,,2026-01-24 00:01:32,False,Routine imaging,,
+ST00296,2026-02-25,CT,Head,South Imaging Center,True,True,True,False,2026-02-25 01:46:32,2026-02-25 01:52:36,2026-02-25 01:54:31,2026-02-25 02:40:32,True,NCCT head,Rapid ICH,RapidAI
+ST00297,2026-02-05,CT,Abdomen,North Clinic,False,False,False,False,2026-02-05 15:03:19,,,2026-02-05 16:25:19,False,Routine imaging,,
+ST00298,2026-02-20,CT,Extremity,North Clinic,False,False,False,False,2026-02-20 06:26:02,,,2026-02-20 07:31:02,False,Routine imaging,,
+ST00299,2026-03-17,CT,Spine,South Imaging Center,False,False,False,False,2026-03-17 05:47:53,,,2026-03-17 07:16:53,False,Routine imaging,,
+ST00300,2026-01-28,MRI,Spine,Central Hospital,False,False,False,False,2026-01-28 17:26:32,,,2026-01-28 18:52:32,False,Routine imaging,,
+ST00301,2026-01-14,X-ray,Spine,South Imaging Center,False,False,False,False,2026-01-14 04:16:12,,,2026-01-14 05:35:12,False,Routine imaging,,
+ST00302,2026-02-13,Ultrasound,Abdomen,North Clinic,False,False,False,False,2026-02-13 05:11:03,,,2026-02-13 08:36:03,False,Routine imaging,,
+ST00303,2026-03-10,CT,Extremity,North Clinic,False,False,False,False,2026-03-10 21:20:57,,,2026-03-10 23:09:57,False,Routine imaging,,
+ST00304,2026-03-24,CT,Head,North Clinic,True,True,True,False,2026-03-24 15:49:02,2026-03-24 15:57:29,2026-03-24 16:07:12,2026-03-24 19:46:02,True,NCCT head,Rapid ICH,RapidAI
+ST00305,2026-01-03,CT,Extremity,North Clinic,False,False,False,False,2026-01-03 13:14:46,,,2026-01-03 15:23:46,False,Routine imaging,,
+ST00306,2026-03-20,Ultrasound,Head,Central Hospital,False,False,False,False,2026-03-20 00:40:03,,,2026-03-20 03:51:03,False,Routine imaging,,
+ST00307,2026-01-07,CT,Spine,North Clinic,False,False,False,False,2026-01-07 09:12:15,,,2026-01-07 12:01:15,False,Routine imaging,,
+ST00308,2026-03-16,CT,Extremity,Central Hospital,False,False,False,False,2026-03-16 16:16:59,,,2026-03-16 17:09:59,False,Routine imaging,,
+ST00309,2026-01-31,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-31 18:43:40,,,2026-01-31 21:17:40,False,Routine imaging,,
+ST00310,2026-02-20,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-20 05:32:10,,,2026-02-20 08:50:10,False,Routine imaging,,
+ST00311,2026-01-18,X-ray,Head,South Imaging Center,False,False,False,False,2026-01-18 16:00:17,,,2026-01-18 18:25:17,False,Routine imaging,,
+ST00312,2026-03-30,X-ray,Chest,Central Hospital,False,False,False,False,2026-03-30 10:06:48,,,2026-03-30 12:53:48,False,Routine imaging,,
+ST00313,2026-01-30,CT,Abdomen,North Clinic,False,False,False,False,2026-01-30 12:39:41,,,2026-01-30 14:11:41,False,Routine imaging,,
+ST00314,2026-02-20,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-20 09:07:10,,,2026-02-20 10:46:10,False,Routine imaging,,
+ST00315,2026-03-03,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-03-03 15:47:24,,,2026-03-03 16:54:24,False,Routine imaging,,
+ST00316,2026-01-30,MRI,Chest,South Imaging Center,False,False,False,False,2026-01-30 09:37:56,,,2026-01-30 10:51:56,False,Routine imaging,,
+ST00317,2026-03-11,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-03-11 23:11:45,,,2026-03-12 02:10:45,False,Routine imaging,,
+ST00318,2026-03-22,X-ray,Chest,South Imaging Center,False,False,False,False,2026-03-22 02:56:23,,,2026-03-22 03:42:23,False,Routine imaging,,
+ST00319,2026-03-16,MRI,Head,South Imaging Center,True,True,True,False,2026-03-16 20:36:44,2026-03-16 20:40:03,2026-03-16 20:54:05,2026-03-16 23:18:44,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00320,2026-01-29,MRI,Abdomen,Central Hospital,False,False,False,False,2026-01-29 02:59:01,,,2026-01-29 03:52:01,False,Routine imaging,,
+ST00321,2026-02-12,CT,Spine,North Clinic,False,False,False,False,2026-02-12 16:21:18,,,2026-02-12 17:48:18,False,Routine imaging,,
+ST00322,2026-02-28,CT,Abdomen,South Imaging Center,False,False,False,False,2026-02-28 21:37:15,,,2026-03-01 01:26:15,False,Routine imaging,,
+ST00323,2026-01-11,CT,Spine,North Clinic,False,False,False,False,2026-01-11 07:25:35,,,2026-01-11 08:31:35,False,Routine imaging,,
+ST00324,2026-02-13,CT,Chest,Central Hospital,False,False,False,False,2026-02-13 15:38:04,,,2026-02-13 17:16:04,False,Routine imaging,,
+ST00325,2026-03-20,CT,Extremity,North Clinic,False,False,False,False,2026-03-20 23:32:26,,,2026-03-21 03:11:26,False,Routine imaging,,
+ST00326,2026-01-19,X-ray,Spine,North Clinic,False,False,False,False,2026-01-19 10:20:43,,,2026-01-19 13:06:43,False,Routine imaging,,
+ST00327,2026-02-18,X-ray,Spine,Central Hospital,False,False,False,False,2026-02-18 10:11:39,,,2026-02-18 10:51:39,False,Routine imaging,,
+ST00328,2026-02-08,MRI,Head,South Imaging Center,True,True,True,False,2026-02-08 04:19:14,2026-02-08 04:28:33,2026-02-08 04:34:07,2026-02-08 07:00:14,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00329,2026-03-07,MRI,Extremity,Central Hospital,False,False,False,False,2026-03-07 07:05:11,,,2026-03-07 07:42:11,False,Routine imaging,,
+ST00330,2026-02-11,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-11 20:08:04,,,2026-02-11 20:56:04,False,Routine imaging,,
+ST00331,2026-02-05,MRI,Chest,Central Hospital,False,False,False,False,2026-02-05 04:44:29,,,2026-02-05 07:58:29,False,Routine imaging,,
+ST00332,2026-01-13,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-13 11:48:26,,,2026-01-13 13:58:26,False,Routine imaging,,
+ST00333,2026-02-24,Ultrasound,Head,South Imaging Center,False,False,False,False,2026-02-24 03:50:32,,,2026-02-24 05:15:32,False,Routine imaging,,
+ST00334,2026-02-19,CT,Chest,Central Hospital,True,True,True,False,2026-02-19 10:20:29,2026-02-19 10:23:25,2026-02-19 10:31:23,2026-02-19 12:56:29,True,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00335,2026-02-28,X-ray,Head,South Imaging Center,False,False,False,False,2026-02-28 20:41:21,,,2026-02-28 22:39:21,False,Routine imaging,,
+ST00336,2026-01-31,CT,Extremity,North Clinic,False,False,False,False,2026-01-31 22:13:43,,,2026-02-01 01:57:43,False,Routine imaging,,
+ST00337,2026-02-27,CT,Extremity,North Clinic,False,False,False,False,2026-02-27 15:28:43,,,2026-02-27 18:19:43,False,Routine imaging,,
+ST00338,2026-03-10,MRI,Spine,North Clinic,False,False,False,False,2026-03-10 19:29:00,,,2026-03-10 20:08:00,False,Routine imaging,,
+ST00339,2026-02-02,MRI,Spine,North Clinic,False,False,False,False,2026-02-02 03:50:39,,,2026-02-02 06:54:39,False,Routine imaging,,
+ST00340,2026-03-19,X-ray,Chest,North Clinic,False,False,False,False,2026-03-19 08:34:23,,,2026-03-19 11:41:23,False,Routine imaging,,
+ST00341,2026-01-26,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-01-26 18:43:50,,,2026-01-26 21:45:50,False,Routine imaging,,
+ST00342,2026-03-12,CT,Spine,South Imaging Center,False,False,False,False,2026-03-12 00:59:02,,,2026-03-12 02:17:02,False,Routine imaging,,
+ST00343,2026-03-03,X-ray,Spine,South Imaging Center,False,False,False,False,2026-03-03 01:44:06,,,2026-03-03 02:56:06,False,Routine imaging,,
+ST00344,2026-01-24,CT,Chest,North Clinic,False,False,False,False,2026-01-24 12:21:32,,,2026-01-24 14:41:32,False,Routine imaging,,
+ST00345,2026-02-18,X-ray,Spine,South Imaging Center,False,False,False,False,2026-02-18 17:19:27,,,2026-02-18 21:02:27,False,Routine imaging,,
+ST00346,2026-01-07,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-07 01:07:33,,,2026-01-07 02:35:33,False,Routine imaging,,
+ST00347,2026-02-01,Ultrasound,Spine,North Clinic,False,False,False,False,2026-02-01 13:25:13,,,2026-02-01 16:14:13,False,Routine imaging,,
+ST00348,2026-01-31,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-31 11:05:47,,,2026-01-31 13:56:47,False,Routine imaging,,
+ST00349,2026-02-23,CT,Abdomen,North Clinic,False,False,False,False,2026-02-23 00:54:31,,,2026-02-23 03:51:31,False,Routine imaging,,
+ST00350,2026-03-16,CT,Head,South Imaging Center,True,True,True,False,2026-03-16 20:57:58,2026-03-16 21:06:20,2026-03-16 21:19:59,2026-03-16 23:55:58,False,NCCT head,Rapid ICH,RapidAI
+ST00351,2026-01-27,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-27 13:12:08,,,2026-01-27 16:40:08,False,Routine imaging,,
+ST00352,2026-02-06,X-ray,Spine,Central Hospital,False,False,False,False,2026-02-06 20:45:05,,,2026-02-06 22:48:05,False,Routine imaging,,
+ST00353,2026-01-29,CT,Chest,South Imaging Center,True,False,False,False,2026-01-29 04:48:13,,,2026-01-29 07:25:13,False,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00354,2026-01-27,Ultrasound,Abdomen,Central Hospital,False,False,False,False,2026-01-27 07:47:06,,,2026-01-27 08:57:06,False,Routine imaging,,
+ST00355,2026-03-01,X-ray,Head,Central Hospital,False,False,False,False,2026-03-01 18:37:53,,,2026-03-01 20:14:53,False,Routine imaging,,
+ST00356,2026-03-07,Ultrasound,Head,Central Hospital,False,False,False,False,2026-03-07 00:49:34,,,2026-03-07 04:07:34,False,Routine imaging,,
+ST00357,2026-01-06,CT,Abdomen,Central Hospital,False,False,False,False,2026-01-06 02:18:47,,,2026-01-06 02:54:47,False,Routine imaging,,
+ST00358,2026-02-09,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-09 12:09:47,,,2026-02-09 14:46:47,False,Routine imaging,,
+ST00359,2026-01-20,X-ray,Abdomen,North Clinic,False,False,False,False,2026-01-20 08:45:57,,,2026-01-20 10:42:57,False,Routine imaging,,
+ST00360,2026-03-04,CT,Chest,Central Hospital,True,True,True,False,2026-03-04 17:03:04,2026-03-04 17:04:45,2026-03-04 17:11:02,2026-03-04 17:47:04,True,CT pulmonary angiography,Viz PE,Viz.ai
+ST00361,2026-02-10,X-ray,Head,North Clinic,False,False,False,False,2026-02-10 13:44:33,,,2026-02-10 14:28:33,False,Routine imaging,,
+ST00362,2026-03-18,MRI,Abdomen,North Clinic,False,False,False,False,2026-03-18 12:04:52,,,2026-03-18 12:41:52,False,Routine imaging,,
+ST00363,2026-02-25,MRI,Abdomen,North Clinic,False,False,False,False,2026-02-25 03:26:49,,,2026-02-25 04:35:49,False,Routine imaging,,
+ST00364,2026-01-27,CT,Chest,South Imaging Center,True,True,True,False,2026-01-27 11:45:23,2026-01-27 11:57:22,2026-01-27 12:12:05,2026-01-27 15:23:23,False,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00365,2026-02-02,X-ray,Extremity,Central Hospital,False,False,False,False,2026-02-02 17:31:41,,,2026-02-02 20:58:41,False,Routine imaging,,
+ST00366,2026-01-18,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-18 00:55:58,,,2026-01-18 03:19:58,False,Routine imaging,,
+ST00367,2026-02-01,CT,Chest,Central Hospital,True,False,False,False,2026-02-01 20:07:28,,,2026-02-01 20:43:28,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00368,2026-02-13,X-ray,Abdomen,South Imaging Center,False,False,False,False,2026-02-13 08:58:09,,,2026-02-13 10:50:09,False,Routine imaging,,
+ST00369,2026-03-12,MRI,Abdomen,Central Hospital,False,False,False,False,2026-03-12 04:26:18,,,2026-03-12 05:31:18,False,Routine imaging,,
+ST00370,2026-02-09,MRI,Abdomen,Central Hospital,False,False,False,False,2026-02-09 08:41:21,,,2026-02-09 10:50:21,False,Routine imaging,,
+ST00371,2026-01-13,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-13 23:14:16,,,2026-01-14 03:00:16,False,Routine imaging,,
+ST00372,2026-02-06,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-06 06:36:32,,,2026-02-06 09:11:32,False,Routine imaging,,
+ST00373,2026-03-19,MRI,Head,North Clinic,True,True,True,False,2026-03-19 20:47:01,2026-03-19 20:51:08,2026-03-19 21:00:43,2026-03-20 00:43:01,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00374,2026-02-21,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-21 06:43:57,,,2026-02-21 09:42:57,False,Routine imaging,,
+ST00375,2026-01-06,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-06 23:54:24,,,2026-01-07 01:20:24,False,Routine imaging,,
+ST00376,2026-02-22,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-22 02:30:31,,,2026-02-22 04:58:31,False,Routine imaging,,
+ST00377,2026-03-08,CT,Extremity,Central Hospital,False,False,False,False,2026-03-08 01:12:10,,,2026-03-08 03:52:10,False,Routine imaging,,
+ST00378,2026-03-29,MRI,Chest,South Imaging Center,False,False,False,False,2026-03-29 06:33:50,,,2026-03-29 07:22:50,False,Routine imaging,,
+ST00379,2026-03-20,CT,Chest,North Clinic,True,True,True,False,2026-03-20 08:14:56,2026-03-20 08:23:40,2026-03-20 08:35:08,2026-03-20 09:07:56,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00380,2026-03-10,CT,Chest,North Clinic,False,False,False,False,2026-03-10 00:00:54,,,2026-03-10 00:52:54,False,Routine imaging,,
+ST00381,2026-01-04,CT,Head,North Clinic,True,True,True,False,2026-01-04 01:56:51,2026-01-04 02:06:49,2026-01-04 02:12:19,2026-01-04 04:18:51,True,NCCT head,Rapid ICH,RapidAI
+ST00382,2026-02-13,X-ray,Spine,Central Hospital,False,False,False,False,2026-02-13 13:10:02,,,2026-02-13 15:21:02,False,Routine imaging,,
+ST00383,2026-03-08,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-08 06:52:37,,,2026-03-08 08:01:37,False,Routine imaging,,
+ST00384,2026-03-25,CT,Head,South Imaging Center,True,True,True,False,2026-03-25 12:36:46,2026-03-25 12:44:48,2026-03-25 12:46:58,2026-03-25 14:51:46,True,NCCT head,Viz ICH,Viz.ai
+ST00385,2026-01-13,X-ray,Head,Central Hospital,False,False,False,False,2026-01-13 08:44:24,,,2026-01-13 09:19:24,False,Routine imaging,,
+ST00386,2026-01-29,MRI,Extremity,South Imaging Center,False,False,False,False,2026-01-29 23:14:10,,,2026-01-30 01:37:10,False,Routine imaging,,
+ST00387,2026-02-06,X-ray,Head,North Clinic,False,False,False,False,2026-02-06 19:46:41,,,2026-02-06 22:18:41,False,Routine imaging,,
+ST00388,2026-01-16,CT,Chest,Central Hospital,True,True,True,False,2026-01-16 01:27:32,2026-01-16 01:36:20,2026-01-16 01:47:12,2026-01-16 02:06:32,True,CT pulmonary angiography,Viz PE,Viz.ai
+ST00389,2026-01-10,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-10 19:06:22,,,2026-01-10 22:14:22,False,Routine imaging,,
+ST00390,2026-03-10,X-ray,Head,Central Hospital,False,False,False,False,2026-03-10 06:46:32,,,2026-03-10 10:30:32,False,Routine imaging,,
+ST00391,2026-02-09,CT,Extremity,Central Hospital,False,False,False,False,2026-02-09 01:20:46,,,2026-02-09 02:50:46,False,Routine imaging,,
+ST00392,2026-01-14,MRI,Abdomen,North Clinic,False,False,False,False,2026-01-14 14:32:22,,,2026-01-14 17:40:22,False,Routine imaging,,
+ST00393,2026-01-24,CT,Head,Central Hospital,True,True,True,False,2026-01-24 00:01:35,2026-01-24 00:08:32,2026-01-24 00:19:51,2026-01-24 02:49:35,False,NCCT head,Aidoc ICH,Aidoc
+ST00394,2026-02-10,CT,Chest,South Imaging Center,False,False,False,False,2026-02-10 03:39:54,,,2026-02-10 06:54:54,False,Routine imaging,,
+ST00395,2026-02-18,CT,Abdomen,North Clinic,False,False,False,False,2026-02-18 02:52:48,,,2026-02-18 06:18:48,False,Routine imaging,,
+ST00396,2026-03-18,MRI,Spine,Central Hospital,False,False,False,False,2026-03-18 07:03:26,,,2026-03-18 09:22:26,False,Routine imaging,,
+ST00397,2026-01-30,CT,Extremity,Central Hospital,False,False,False,False,2026-01-30 02:47:27,,,2026-01-30 05:23:27,False,Routine imaging,,
+ST00398,2026-03-24,CT,Head,North Clinic,True,True,False,True,2026-03-24 11:06:28,2026-03-24 11:12:09,,2026-03-24 14:03:28,False,NCCT head,Rapid ASPECTS,RapidAI
+ST00399,2026-01-24,CT,Abdomen,Central Hospital,False,False,False,False,2026-01-24 13:54:04,,,2026-01-24 16:46:04,False,Routine imaging,,
+ST00400,2026-01-06,CT,Extremity,Central Hospital,False,False,False,False,2026-01-06 00:05:20,,,2026-01-06 03:14:20,False,Routine imaging,,
+ST00401,2026-03-26,CT,Extremity,South Imaging Center,False,False,False,False,2026-03-26 19:40:59,,,2026-03-26 23:20:59,False,Routine imaging,,
+ST00402,2026-02-24,CT,Head,North Clinic,True,True,True,False,2026-02-24 06:12:57,2026-02-24 06:17:56,2026-02-24 06:18:31,2026-02-24 08:12:57,True,NCCT head,Aidoc ICH,Aidoc
+ST00403,2026-03-30,CT,Head,South Imaging Center,True,True,True,False,2026-03-30 06:06:35,2026-03-30 06:13:14,2026-03-30 06:16:42,2026-03-30 07:11:35,True,NCCT head,Viz ICH,Viz.ai
+ST00404,2026-03-15,MRI,Head,North Clinic,True,True,True,False,2026-03-15 05:43:04,2026-03-15 05:48:06,2026-03-15 05:51:00,2026-03-15 08:39:04,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00405,2026-02-06,MRI,Abdomen,South Imaging Center,False,False,False,False,2026-02-06 23:00:22,,,2026-02-07 01:34:22,False,Routine imaging,,
+ST00406,2026-02-15,X-ray,Abdomen,North Clinic,False,False,False,False,2026-02-15 13:59:31,,,2026-02-15 15:26:31,False,Routine imaging,,
+ST00407,2026-01-31,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-31 09:09:40,,,2026-01-31 10:40:40,False,Routine imaging,,
+ST00408,2026-01-15,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-15 04:01:28,,,2026-01-15 07:05:28,False,Routine imaging,,
+ST00409,2026-03-11,CT,Head,South Imaging Center,True,True,True,False,2026-03-11 21:44:57,2026-03-11 21:48:47,2026-03-11 21:53:16,2026-03-11 23:21:57,False,NCCT head,Aidoc ICH,Aidoc
+ST00410,2026-03-08,CT,Spine,South Imaging Center,False,False,False,False,2026-03-08 11:48:29,,,2026-03-08 15:28:29,False,Routine imaging,,
+ST00411,2026-03-13,MRI,Head,South Imaging Center,True,True,True,False,2026-03-13 19:22:44,2026-03-13 19:31:12,2026-03-13 19:40:59,2026-03-13 22:16:44,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00412,2026-03-04,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-03-04 07:31:27,,,2026-03-04 08:14:27,False,Routine imaging,,
+ST00413,2026-03-21,MRI,Chest,South Imaging Center,False,False,False,False,2026-03-21 10:04:07,,,2026-03-21 11:17:07,False,Routine imaging,,
+ST00414,2026-02-14,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-14 06:34:46,,,2026-02-14 09:52:46,False,Routine imaging,,
+ST00415,2026-03-01,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-03-01 20:35:39,,,2026-03-01 21:14:39,False,Routine imaging,,
+ST00416,2026-02-21,MRI,Chest,South Imaging Center,False,False,False,False,2026-02-21 16:08:41,,,2026-02-21 16:47:41,False,Routine imaging,,
+ST00417,2026-03-07,CT,Head,North Clinic,True,True,True,False,2026-03-07 10:36:38,2026-03-07 10:39:57,2026-03-07 10:51:19,2026-03-07 12:00:38,False,NCCT head,Rapid ICH,RapidAI
+ST00418,2026-03-21,CT,Spine,North Clinic,False,False,False,False,2026-03-21 03:35:13,,,2026-03-21 04:30:13,False,Routine imaging,,
+ST00419,2026-02-09,MRI,Head,North Clinic,True,True,True,False,2026-02-09 10:06:44,2026-02-09 10:10:40,2026-02-09 10:25:35,2026-02-09 11:38:44,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00420,2026-03-08,X-ray,Chest,South Imaging Center,False,False,False,False,2026-03-08 09:55:57,,,2026-03-08 13:17:57,False,Routine imaging,,
+ST00421,2026-03-15,CT,Spine,North Clinic,False,False,False,False,2026-03-15 17:57:47,,,2026-03-15 20:09:47,False,Routine imaging,,
+ST00422,2026-02-23,MRI,Chest,South Imaging Center,False,False,False,False,2026-02-23 15:53:15,,,2026-02-23 19:13:15,False,Routine imaging,,
+ST00423,2026-03-25,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-03-25 07:11:32,,,2026-03-25 07:56:32,False,Routine imaging,,
+ST00424,2026-01-21,Ultrasound,Extremity,North Clinic,False,False,False,False,2026-01-21 12:38:14,,,2026-01-21 15:14:14,False,Routine imaging,,
+ST00425,2026-01-05,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-01-05 12:29:50,,,2026-01-05 15:23:50,False,Routine imaging,,
+ST00426,2026-03-05,CT,Abdomen,Central Hospital,False,False,False,False,2026-03-05 21:30:20,,,2026-03-06 01:07:20,False,Routine imaging,,
+ST00427,2026-01-30,CT,Head,South Imaging Center,True,True,True,False,2026-01-30 01:21:56,2026-01-30 01:30:07,2026-01-30 01:31:03,2026-01-30 03:20:56,True,NCCT head,Rapid ASPECTS,RapidAI
+ST00428,2026-01-14,X-ray,Chest,South Imaging Center,False,False,False,False,2026-01-14 14:06:30,,,2026-01-14 16:49:30,False,Routine imaging,,
+ST00429,2026-02-03,CT,Spine,Central Hospital,False,False,False,False,2026-02-03 13:54:39,,,2026-02-03 15:28:39,False,Routine imaging,,
+ST00430,2026-02-03,MRI,Extremity,North Clinic,False,False,False,False,2026-02-03 01:38:19,,,2026-02-03 04:45:19,False,Routine imaging,,
+ST00431,2026-03-17,CT,Abdomen,North Clinic,False,False,False,False,2026-03-17 02:30:48,,,2026-03-17 05:26:48,False,Routine imaging,,
+ST00432,2026-01-19,MRI,Spine,South Imaging Center,False,False,False,False,2026-01-19 00:48:01,,,2026-01-19 01:44:01,False,Routine imaging,,
+ST00433,2026-01-29,X-ray,Chest,North Clinic,False,False,False,False,2026-01-29 16:17:02,,,2026-01-29 17:13:02,False,Routine imaging,,
+ST00434,2026-01-15,CT,Head,North Clinic,True,True,True,False,2026-01-15 23:21:39,2026-01-15 23:25:51,2026-01-15 23:32:57,2026-01-15 23:57:39,True,NCCT head,Viz ICH,Viz.ai
+ST00435,2026-02-04,X-ray,Chest,Central Hospital,False,False,False,False,2026-02-04 22:40:06,,,2026-02-04 23:48:06,False,Routine imaging,,
+ST00436,2026-01-19,CT,Extremity,South Imaging Center,False,False,False,False,2026-01-19 04:39:16,,,2026-01-19 07:36:16,False,Routine imaging,,
+ST00437,2026-02-09,CT,Chest,Central Hospital,True,True,True,False,2026-02-09 14:48:42,2026-02-09 14:52:21,2026-02-09 14:56:27,2026-02-09 16:46:42,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00438,2026-01-29,CT,Chest,South Imaging Center,True,False,False,False,2026-01-29 08:03:13,,,2026-01-29 11:04:13,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00439,2026-02-06,CT,Abdomen,North Clinic,False,False,False,False,2026-02-06 23:10:11,,,2026-02-07 01:36:11,False,Routine imaging,,
+ST00440,2026-02-17,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-02-17 00:20:26,,,2026-02-17 01:59:26,False,Routine imaging,,
+ST00441,2026-03-11,MRI,Extremity,Central Hospital,False,False,False,False,2026-03-11 23:49:02,,,2026-03-12 03:01:02,False,Routine imaging,,
+ST00442,2026-02-14,CT,Abdomen,North Clinic,False,False,False,False,2026-02-14 10:53:41,,,2026-02-14 13:05:41,False,Routine imaging,,
+ST00443,2026-02-12,CT,Extremity,North Clinic,False,False,False,False,2026-02-12 17:47:37,,,2026-02-12 18:56:37,False,Routine imaging,,
+ST00444,2026-02-01,MRI,Head,South Imaging Center,True,True,True,False,2026-02-01 03:12:14,2026-02-01 03:22:32,2026-02-01 03:37:15,2026-02-01 05:01:14,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00445,2026-02-17,Ultrasound,Head,North Clinic,False,False,False,False,2026-02-17 16:07:47,,,2026-02-17 18:05:47,False,Routine imaging,,
+ST00446,2026-01-28,X-ray,Spine,Central Hospital,False,False,False,False,2026-01-28 05:08:48,,,2026-01-28 07:16:48,False,Routine imaging,,
+ST00447,2026-02-24,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-24 17:52:00,,,2026-02-24 19:13:00,False,Routine imaging,,
+ST00448,2026-03-16,MRI,Spine,Central Hospital,False,False,False,False,2026-03-16 12:40:45,,,2026-03-16 16:16:45,False,Routine imaging,,
+ST00449,2026-02-12,X-ray,Chest,North Clinic,False,False,False,False,2026-02-12 13:40:26,,,2026-02-12 17:38:26,False,Routine imaging,,
+ST00450,2026-03-07,MRI,Abdomen,North Clinic,False,False,False,False,2026-03-07 08:09:05,,,2026-03-07 12:06:05,False,Routine imaging,,
+ST00451,2026-02-28,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-28 01:17:12,,,2026-02-28 04:08:12,False,Routine imaging,,
+ST00452,2026-03-31,Ultrasound,Spine,Central Hospital,False,False,False,False,2026-03-31 15:54:03,,,2026-03-31 18:48:03,False,Routine imaging,,
+ST00453,2026-03-18,Ultrasound,Extremity,South Imaging Center,False,False,False,False,2026-03-18 18:30:47,,,2026-03-18 21:37:47,False,Routine imaging,,
+ST00454,2026-03-30,CT,Head,South Imaging Center,True,True,False,True,2026-03-30 18:42:33,2026-03-30 18:51:40,,2026-03-30 19:28:33,False,NCCT head,Rapid ICH,RapidAI
+ST00455,2026-03-07,MRI,Abdomen,Central Hospital,False,False,False,False,2026-03-07 18:37:26,,,2026-03-07 21:02:26,False,Routine imaging,,
+ST00456,2026-01-02,CT,Head,North Clinic,True,True,True,False,2026-01-02 00:34:41,2026-01-02 00:45:10,2026-01-02 00:55:44,2026-01-02 03:36:41,True,NCCT head,Rapid ICH,RapidAI
+ST00457,2026-02-07,MRI,Extremity,South Imaging Center,False,False,False,False,2026-02-07 23:24:31,,,2026-02-08 02:55:31,False,Routine imaging,,
+ST00458,2026-01-15,CT,Chest,South Imaging Center,False,False,False,False,2026-01-15 15:15:40,,,2026-01-15 16:19:40,False,Routine imaging,,
+ST00459,2026-01-14,CT,Abdomen,South Imaging Center,False,False,False,False,2026-01-14 18:07:37,,,2026-01-14 20:43:37,False,Routine imaging,,
+ST00460,2026-03-09,MRI,Chest,South Imaging Center,False,False,False,False,2026-03-09 15:34:33,,,2026-03-09 17:36:33,False,Routine imaging,,
+ST00461,2026-03-19,CT,Head,Central Hospital,True,True,True,False,2026-03-19 16:15:06,2026-03-19 16:17:54,2026-03-19 16:19:46,2026-03-19 18:39:06,True,NCCT head,Rapid ASPECTS,RapidAI
+ST00462,2026-03-19,CT,Head,Central Hospital,True,True,True,False,2026-03-19 10:54:20,2026-03-19 11:06:09,2026-03-19 11:16:53,2026-03-19 14:37:20,False,NCCT head,Rapid ASPECTS,RapidAI
+ST00463,2026-02-13,MRI,Spine,South Imaging Center,False,False,False,False,2026-02-13 15:35:08,,,2026-02-13 16:11:08,False,Routine imaging,,
+ST00464,2026-01-21,CT,Chest,North Clinic,False,False,False,False,2026-01-21 20:30:40,,,2026-01-21 21:55:40,False,Routine imaging,,
+ST00465,2026-03-07,X-ray,Extremity,North Clinic,False,False,False,False,2026-03-07 02:50:51,,,2026-03-07 06:08:51,False,Routine imaging,,
+ST00466,2026-02-27,CT,Spine,Central Hospital,False,False,False,False,2026-02-27 23:02:34,,,2026-02-28 02:07:34,False,Routine imaging,,
+ST00467,2026-02-03,CT,Spine,Central Hospital,False,False,False,False,2026-02-03 18:43:23,,,2026-02-03 21:56:23,False,Routine imaging,,
+ST00468,2026-03-21,MRI,Abdomen,Central Hospital,False,False,False,False,2026-03-21 00:08:51,,,2026-03-21 03:14:51,False,Routine imaging,,
+ST00469,2026-03-07,CT,Chest,North Clinic,True,True,True,False,2026-03-07 06:07:48,2026-03-07 06:10:31,2026-03-07 06:24:46,2026-03-07 07:18:48,True,CT pulmonary angiography,Aidoc PE,Aidoc
+ST00470,2026-02-27,CT,Spine,Central Hospital,False,False,False,False,2026-02-27 21:46:22,,,2026-02-28 00:09:22,False,Routine imaging,,
+ST00471,2026-02-17,MRI,Head,South Imaging Center,True,False,False,False,2026-02-17 06:01:25,,,2026-02-17 07:56:25,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00472,2026-01-06,X-ray,Chest,Central Hospital,False,False,False,False,2026-01-06 04:55:23,,,2026-01-06 07:34:23,False,Routine imaging,,
+ST00473,2026-01-19,X-ray,Extremity,South Imaging Center,False,False,False,False,2026-01-19 22:40:56,,,2026-01-20 01:24:56,False,Routine imaging,,
+ST00474,2026-02-18,CT,Spine,South Imaging Center,False,False,False,False,2026-02-18 01:21:48,,,2026-02-18 03:42:48,False,Routine imaging,,
+ST00475,2026-03-23,CT,Head,Central Hospital,True,True,True,False,2026-03-23 13:05:23,2026-03-23 13:12:15,2026-03-23 13:16:43,2026-03-23 14:54:23,True,NCCT head,Rapid ASPECTS,RapidAI
+ST00476,2026-02-22,CT,Spine,South Imaging Center,False,False,False,False,2026-02-22 04:43:07,,,2026-02-22 07:42:07,False,Routine imaging,,
+ST00477,2026-03-17,X-ray,Extremity,Central Hospital,False,False,False,False,2026-03-17 00:09:59,,,2026-03-17 02:54:59,False,Routine imaging,,
+ST00478,2026-02-25,CT,Extremity,South Imaging Center,False,False,False,False,2026-02-25 14:31:13,,,2026-02-25 16:39:13,False,Routine imaging,,
+ST00479,2026-03-21,X-ray,Spine,Central Hospital,False,False,False,False,2026-03-21 20:49:20,,,2026-03-21 23:43:20,False,Routine imaging,,
+ST00480,2026-02-11,CT,Head,Central Hospital,True,True,True,False,2026-02-11 06:40:56,2026-02-11 06:42:24,2026-02-11 06:45:59,2026-02-11 07:37:56,True,NCCT head,Rapid ICH,RapidAI
+ST00481,2026-03-17,X-ray,Head,South Imaging Center,False,False,False,False,2026-03-17 07:21:09,,,2026-03-17 11:04:09,False,Routine imaging,,
+ST00482,2026-03-08,CT,Extremity,North Clinic,False,False,False,False,2026-03-08 21:47:51,,,2026-03-09 01:03:51,False,Routine imaging,,
+ST00483,2026-01-17,MRI,Head,Central Hospital,True,True,False,True,2026-01-17 02:45:54,2026-01-17 02:50:42,,2026-01-17 04:31:54,False,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00484,2026-02-01,Ultrasound,Abdomen,South Imaging Center,False,False,False,False,2026-02-01 10:10:03,,,2026-02-01 11:59:03,False,Routine imaging,,
+ST00485,2026-01-26,Ultrasound,Extremity,Central Hospital,False,False,False,False,2026-01-26 22:57:16,,,2026-01-27 02:25:16,False,Routine imaging,,
+ST00486,2026-01-14,Ultrasound,Spine,North Clinic,False,False,False,False,2026-01-14 03:56:42,,,2026-01-14 04:46:42,False,Routine imaging,,
+ST00487,2026-03-26,MRI,Head,North Clinic,True,True,True,False,2026-03-26 04:22:02,2026-03-26 04:27:44,2026-03-26 04:34:15,2026-03-26 08:11:02,True,Brain MRI T1 and FLAIR,icobrain ms,icometrix
+ST00488,2026-02-17,CT,Abdomen,Central Hospital,False,False,False,False,2026-02-17 12:31:17,,,2026-02-17 16:29:17,False,Routine imaging,,
+ST00489,2026-02-09,MRI,Abdomen,South Imaging Center,False,False,False,False,2026-02-09 02:42:37,,,2026-02-09 04:40:37,False,Routine imaging,,
+ST00490,2026-01-10,X-ray,Spine,South Imaging Center,False,False,False,False,2026-01-10 01:02:08,,,2026-01-10 04:19:08,False,Routine imaging,,
+ST00491,2026-03-09,CT,Chest,North Clinic,False,False,False,False,2026-03-09 16:48:03,,,2026-03-09 18:17:03,False,Routine imaging,,
+ST00492,2026-03-22,CT,Extremity,Central Hospital,False,False,False,False,2026-03-22 10:10:49,,,2026-03-22 13:12:49,False,Routine imaging,,
+ST00493,2026-02-24,X-ray,Abdomen,Central Hospital,False,False,False,False,2026-02-24 23:12:24,,,2026-02-25 02:41:24,False,Routine imaging,,
+ST00494,2026-01-05,CT,Spine,Central Hospital,False,False,False,False,2026-01-05 11:03:17,,,2026-01-05 11:42:17,False,Routine imaging,,
+ST00495,2026-03-25,CT,Spine,North Clinic,False,False,False,False,2026-03-25 06:28:23,,,2026-03-25 07:03:23,False,Routine imaging,,
+ST00496,2026-01-20,Ultrasound,Head,North Clinic,False,False,False,False,2026-01-20 15:26:08,,,2026-01-20 18:47:08,False,Routine imaging,,
+ST00497,2026-01-16,X-ray,Abdomen,South Imaging Center,False,False,False,False,2026-01-16 10:26:39,,,2026-01-16 11:24:39,False,Routine imaging,,
+ST00498,2026-02-04,CT,Abdomen,South Imaging Center,False,False,False,False,2026-02-04 23:52:31,,,2026-02-05 03:07:31,False,Routine imaging,,
+ST00499,2026-03-15,CT,Chest,South Imaging Center,True,False,False,False,2026-03-15 07:49:06,,,2026-03-15 08:57:06,False,CT pulmonary angiography,Viz PE,Viz.ai
+ST00500,2026-03-08,CT,Chest,Central Hospital,True,True,True,False,2026-03-08 00:28:28,2026-03-08 00:36:27,2026-03-08 00:44:42,2026-03-08 04:00:28,True,CT pulmonary angiography,Aidoc PE,Aidoc

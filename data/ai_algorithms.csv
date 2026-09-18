@@ -1,0 +1,8 @@
+algorithm_id,vendor,algorithm_name,clinical_task,modality,body_part,mock_protocol,source_url,source_checked_date
+aidoc_ich,Aidoc,Aidoc ICH,Intracranial hemorrhage triage,CT,Head,NCCT head,https://www.aidoc.com/solutions/neuro/,2026-09-18
+viz_ich,Viz.ai,Viz ICH,Intracranial hemorrhage notification,CT,Head,NCCT head,https://www.viz.ai/indications-for-use,2026-09-18
+rapid_ich,RapidAI,Rapid ICH,Intracranial hemorrhage triage,CT,Head,NCCT head,https://www.rapidai.com/press-release/rapid-platform-expands-to-address-hemorrhagic-stroke,2026-09-18
+rapid_aspects,RapidAI,Rapid ASPECTS,Early ischemic change scoring,CT,Head,NCCT head,https://www.rapidai.com/press-release/rapid-aspects-first-neuroimaging-solution-with-cadx-fda-clearance,2026-09-18
+aidoc_pe,Aidoc,Aidoc PE,Pulmonary embolism triage,CT,Chest,CT pulmonary angiography,https://www.aidoc.com/solutions/vte-solutions/,2026-09-18
+viz_pe,Viz.ai,Viz PE,Pulmonary embolism triage,CT,Chest,CT pulmonary angiography,https://www.viz.ai/news/new-clinical-data-supports-viz-ai-solution-for-improved-pulmonary-embolism-detection-and-care-coordination,2026-09-18
+icobrain_ms,icometrix,icobrain ms,MS lesion and brain volume quantification,MRI,Head,Brain MRI T1 and FLAIR,https://www.icometrix.com/multiple-sclerosis,2026-09-18

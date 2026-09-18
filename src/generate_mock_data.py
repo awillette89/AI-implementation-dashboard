@@ -6,6 +6,8 @@ import random
 
 import pandas as pd
 
+from add_algorithm_data import add_algorithm_data, backup_current_data
+
 
 # A fixed seed makes the same example data every time the script is run.
 random.seed(42)
@@ -70,10 +72,13 @@ def generate_study(study_number: int) -> dict:
 
 def main() -> None:
     """Create 500 studies and write them to the project's data folder."""
+    random.seed(42)
     studies = [generate_study(number) for number in range(1, NUMBER_OF_STUDIES + 1)]
-    dataset = pd.DataFrame(studies)
+    dataset = add_algorithm_data(pd.DataFrame(studies))
 
     OUTPUT_FILE.parent.mkdir(exist_ok=True)
+    if OUTPUT_FILE.exists():
+        print(f"Previous data backed up in: {backup_current_data()}")
     dataset.to_csv(OUTPUT_FILE, index=False)
     print(f"Created {len(dataset)} mock studies at: {OUTPUT_FILE}")
 
