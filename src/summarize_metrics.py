@@ -134,6 +134,25 @@ def load_algorithm_turnaround(site: str | None = None) -> list[dict]:
         return [dict(row) for row in connection.execute(query, parameters)]
 
 
+def load_error_details(site: str | None = None) -> list[dict]:
+    """Read failed studies and their mock reasons for the selected site."""
+    query = """
+        SELECT study_id, study_date, site, modality, algorithm_name,
+               COALESCE(ai_error_reason, 'Reason not recorded') AS ai_error_reason,
+               COALESCE(ai_error_detail, 'No explanation recorded.') AS ai_error_detail
+        FROM imaging_studies
+        WHERE ai_processed = 1 AND ai_error = 1
+    """
+    parameters = ()
+    if site is not None:
+        query += " AND site = ?"
+        parameters = (site,)
+    query += " ORDER BY study_date DESC, study_id"
+    with closing(open_database()) as connection:
+        connection.row_factory = sqlite3.Row
+        return [dict(row) for row in connection.execute(query, parameters)]
+
+
 def load_overall_metrics(site: str | None = None) -> dict[str, dict[str, int | float | None]]:
     """Return all-study or single-site results using the same SQL formulas."""
     metrics = {}

@@ -1,4 +1,4 @@
 # Data generation, CSV loading, and the SQL report runner.
 pandas>=2.0,<3.0
-# The local dashboard (including bordered card containers).
-streamlit>=1.32,<2.0
+# The local dashboard, including single-cell selection without row checkboxes.
+streamlit>=1.55,<2.0

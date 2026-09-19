@@ -11,6 +11,30 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIRECTORY = PROJECT_ROOT / "data"
 
+# Fictional workflow failures for learning, not diagnosed vendor defects.
+ERROR_REASONS = [
+    ("Incomplete image series", "The AI service received only part of the image series, so it could not complete processing."),
+    ("Missing image metadata", "Required image metadata was missing, so the AI service could not validate the input."),
+    ("Processing timeout", "The AI job exceeded the mock processing time limit before producing a usable result."),
+    ("Processing service unavailable", "The AI processing service was unavailable when the study was submitted."),
+    ("Unreadable image data", "The AI service could not decode the submitted image data, so processing stopped."),
+]
+
+
+def add_error_details(studies: pd.DataFrame) -> pd.DataFrame:
+    """Add repeatable mock reasons without changing any existing study metrics."""
+    enriched = studies.copy()
+    enriched["ai_error_reason"] = None
+    enriched["ai_error_detail"] = None
+    for index, study in enriched.iterrows():
+        if study["ai_error"] == 1:
+            # A separate seed per study keeps reasons stable and does not alter
+            # the random numbers used to generate algorithms or timings.
+            reason, detail = random.Random(f"error-v1-{study['study_id']}").choice(ERROR_REASONS)
+            enriched.at[index, "ai_error_reason"] = reason
+            enriched.at[index, "ai_error_detail"] = detail
+    return enriched
+
 
 def add_algorithm_data(studies: pd.DataFrame) -> pd.DataFrame:
     """Assign at most one matching example algorithm to each mock study."""
@@ -59,7 +83,7 @@ def add_algorithm_data(studies: pd.DataFrame) -> pd.DataFrame:
             "ai_result_time": ai_result.isoformat(sep=" ") if ai_result else None,
         }.items():
             enriched.at[index, column] = value
-    return enriched
+    return add_error_details(enriched)
 
 
 def backup_current_data() -> Path:

@@ -7,7 +7,7 @@ import streamlit as st
 
 from summarize_metrics import (
     format_value, load_algorithm_turnaround, load_modality_utilization, load_modality_volumes,
-    load_overall_metrics, load_sites,
+    load_error_details, load_overall_metrics, load_sites,
 )
 
 
@@ -15,7 +15,12 @@ def main() -> None:
     # Streamlit builds the page in the same order as these Python statements.
     st.set_page_config(page_title="AI Implementation Dashboard", layout="wide")
     st.title("AI Implementation Dashboard")
-    st.caption("An overview of the mock imaging-AI workflow")
+    st.caption("Portfolio demo · 500 simulated imaging studies · No patient data")
+    st.write(
+        "Built for imaging and AI implementation teams to explore adoption, "
+        "investigate processing failures, and monitor turnaround time. "
+        "Choose a site, then use the tabs to explore its workflow."
+    )
     st.info(
         "This data is simulated for learning. Real algorithm names do not imply "
         "measured vendor performance. It cannot establish that AI caused "
@@ -42,14 +47,16 @@ def main() -> None:
     st.markdown(f"**Showing: {'All sites' if selected_site is None else selected_site}**")
 
     # Tabs organize existing displays. The Site selection above is shared by
-    # all three helpers, so changing it updates every tab consistently.
-    overview_tab, usage_tab, algorithm_tab = st.tabs(
-        ["Overview", "AI usage & reliability", "Algorithm turnaround"]
+    # all tab helpers, so changing it updates every tab consistently.
+    overview_tab, usage_tab, error_tab, algorithm_tab = st.tabs(
+        ["Overview", "AI usage & reliability", "Errors", "Algorithm turnaround"]
     )
     with overview_tab:
         render_overview(metrics, selected_site)
     with usage_tab:
-        render_usage(selected_site)
+        render_usage(metrics, selected_site)
+    with error_tab:
+        render_errors(metrics, selected_site)
     with algorithm_tab:
         render_algorithms(selected_site)
 
@@ -121,8 +128,17 @@ def render_overview(metrics: dict, selected_site: str | None) -> None:
 
 
 
-def render_usage(selected_site: str | None) -> None:
+def render_usage(metrics: dict, selected_site: str | None) -> None:
     """Show the existing utilization chart and supporting counts."""
+    # These reuse the loaded results, keeping reliability and adoption visible
+    # alongside utilization without introducing new calculations.
+    error_column, adoption_column = st.columns(2)
+    with error_column:
+        st.metric("AI errors", format_value(metrics["AI error rate"]["ai_error_rate_percent"], "percent"),
+                  help="Processed studies with an error divided by all AI-processed studies.")
+    with adoption_column:
+        st.metric("AI adoption", format_value(metrics["AI adoption"]["ai_adoption_rate_percent"], "percent"),
+                  help="Studies where radiologists used AI divided by studies with an available result.")
     st.subheader("AI utilization by modality (%)")
     st.caption(
         "Percentage of eligible studies processed by AI in the selected scope. "
@@ -149,24 +165,121 @@ def render_usage(selected_site: str | None) -> None:
         # Selecting x and y plots percentages rather than the supporting counts.
         # These column names also label the horizontal and vertical axes.
         st.bar_chart(utilization_data, x="Modality", y="AI utilization (%)")
-        st.caption("Counts behind the percentages")
         # Format percentages only in the table, keeping chart values numeric.
         table_data = utilization_data.copy()
         table_data["AI utilization (%)"] = table_data["AI utilization (%)"].map(
             lambda value: format_value(value, "percent")
         )
-        st.dataframe(table_data, hide_index=True)
+        with st.expander("View counts behind the percentages"):
+            st.dataframe(table_data, hide_index=True)
 
+
+
+def render_errors(metrics: dict, selected_site: str | None) -> None:
+    """Show failed studies and explain each simulated failure."""
+    st.subheader("Why AI processing failed")
+    st.caption(
+        "Reasons below are assigned mock scenarios, not findings from real logs "
+        "or evidence of vendor defects. These are workflow failures, not diagnostic accuracy errors."
+    )
+    error_metrics = metrics["AI error rate"]
+    count_column, rate_column = st.columns(2)
+    with count_column:
+        st.metric("Failed studies", format_value(error_metrics["ai_error_studies"], "count"))
+    with rate_column:
+        st.metric("AI error rate", format_value(error_metrics["ai_error_rate_percent"], "percent"),
+                  help="Failed AI-processed studies divided by all AI-processed studies at this site.")
+    try:
+        errors = load_error_details(selected_site)
+    except (OSError, sqlite3.Error) as error:
+        st.error(f"Could not load error details: {error}")
+        return
+    if not errors:
+        st.info("No AI processing errors are recorded for this selection.")
+        return
+
+    error_data = pd.DataFrame(errors)
+    # Count rows by reason. Each failed study appears once in this summary.
+    reasons = error_data.groupby("ai_error_reason").size().reset_index(name="Failed studies")
+    reasons = reasons.rename(columns={"ai_error_reason": "Mock reason"}).sort_values(
+        ["Failed studies", "Mock reason"], ascending=[False, True]
+    )
+    st.markdown("**Errors by reason**")
+    st.dataframe(reasons, hide_index=True)
+    st.markdown("**Failed studies**")
+    st.caption("Click any cell in a failed study to see its explanation, or use the dropdown.")
+    study_ids = [row["study_id"] for row in errors]
+    # Separate widget identities for each set of studies prevent a selection
+    # from another site from pointing at the wrong row after filtering.
+    scope = repr((selected_site, tuple(study_ids)))
+    table_key = f"failed_study_cells_{scope}"
+    dropdown_key = f"error_lookup_{scope}"
+    selected_key = f"selected_error_{scope}"
+
+    def explain_lookup() -> None:
+        # Keep the chosen study separately so clearing the search widget does
+        # not clear its explanation. The next lookup starts ready for a paste.
+        value = st.session_state.get(dropdown_key)
+        if value in study_ids:
+            st.session_state[selected_key] = value
+        st.session_state[dropdown_key] = None
+
+    def explain_selected_row() -> None:
+        # Table clicks and dropdown choices update the same selected study.
+        cells = st.session_state[table_key]["selection"]["cells"]
+        # Each selected cell is (original row position, column name).
+        # Single-cell selection avoids the row-selection checkbox column.
+        if cells and 0 <= cells[0][0] < len(study_ids):
+            st.session_state[selected_key] = study_ids[cells[0][0]]
+            st.session_state[dropdown_key] = None
+
+    st.dataframe(error_data.drop(columns="ai_error_detail").rename(columns={
+        "study_id": "Study ID", "study_date": "Date", "site": "Site",
+        "modality": "Modality", "algorithm_name": "Algorithm",
+        "ai_error_reason": "Mock reason",
+    }), hide_index=True, key=table_key, on_select=explain_selected_row,
+        selection_mode="single-cell")
+    # A lookup keeps the full explanation readable without a very wide table.
+    st.selectbox(
+        "Explain an error", options=study_ids, key=dropdown_key, index=None,
+        placeholder="Type or paste a Study ID", on_change=explain_lookup,
+        help="Search failed studies at the selected site. Select a matching ID to view its explanation.",
+    )
+    selected_study = st.session_state.get(selected_key)
+    if selected_study not in study_ids:
+        st.caption("Click a failed study above, or search for its Study ID here.")
+        return
+    selected = next(row for row in errors if row["study_id"] == selected_study)
+    st.markdown(f"**{selected['study_id']} · {selected['algorithm_name']}**")
+    st.write(f"Mock reason: {selected['ai_error_reason']}")
+    st.info(selected["ai_error_detail"])
 
 
 def render_algorithms(selected_site: str | None) -> None:
     """Keep algorithm lookup in its own tab."""
-    st.subheader("Turnaround time by algorithm")
+    st.subheader("Simulated algorithm turnaround")
     st.caption(
         "Simulated timings, not vendor benchmarks. AI processing time measures AI "
         "start to successful result. Study turnaround measures study start to "
         "completion among AI-processed studies, including errors."
     )
+    with st.expander("About these algorithm examples and sources"):
+        st.write(
+            "These are real product names paired with invented data, not a ranking "
+            "or a head-to-head evaluation. Each study has at most one assigned "
+            "algorithm. All products use the same mock timing distributions. "
+            "Clinical matching is simplified, and study completion is not changed by AI."
+        )
+        st.markdown(
+            "Official product sources: [Aidoc ICH](https://www.aidoc.com/solutions/neuro/), "
+            "[Aidoc PE](https://www.aidoc.com/solutions/vte-solutions/), "
+            "[Viz ICH](https://www.viz.ai/indications-for-use), "
+            "[Viz PE](https://www.viz.ai/news/new-clinical-data-supports-viz-ai-solution-for-improved-pulmonary-embolism-detection-and-care-coordination), "
+            "[Rapid ICH](https://www.rapidai.com/press-release/rapid-platform-expands-to-address-hemorrhagic-stroke), "
+            "[Rapid ASPECTS](https://www.rapidai.com/press-release/rapid-aspects-first-neuroimaging-solution-with-cadx-fda-clearance), "
+            "[icobrain ms](https://www.icometrix.com/multiple-sclerosis). "
+            "Names and broad tasks checked September 18, 2026; no vendor performance claims imported."
+        )
     try:
         algorithm_rows = load_algorithm_turnaround(site=selected_site)
     except (OSError, sqlite3.Error, ValueError) as error:
@@ -177,16 +290,33 @@ def render_algorithms(selected_site: str | None) -> None:
     if not algorithm_rows:
         st.info("No algorithm-processed studies match this site. Try All sites.")
     else:
-        # This dropdown affects only the algorithm table. The Site dropdown
+        # This dropdown affects only the algorithm detail cards. The Site dropdown
         # above still limits the data for the entire page.
         selected_algorithm = st.selectbox(
-            "Algorithm (turnaround table only)",
+            "Look up an algorithm",
             options=[None, *sorted(row["algorithm_name"] for row in algorithm_rows)],
             format_func=lambda value: "All algorithms" if value is None else value,
         )
-        selected_rows = [row for row in algorithm_rows if selected_algorithm is None
-                         or row["algorithm_name"] == selected_algorithm]
-        algorithm_data = pd.DataFrame(selected_rows).rename(columns={
+        if selected_algorithm is not None:
+            selected = next(row for row in algorithm_rows
+                            if row["algorithm_name"] == selected_algorithm)
+            st.markdown(f"**{selected_algorithm} · {selected['algorithm_vendor']}**")
+            processing_column, study_column = st.columns(2)
+            with processing_column:
+                st.metric("AI processing TAT", format_value(selected["avg_ai_processing_minutes"], "minutes"),
+                          help="Average AI start to result, using successful results only.")
+                st.caption(f"Based on {selected['successful_results']} successful results")
+            with study_column:
+                st.metric("Study TAT", format_value(selected["avg_study_turnaround_minutes"], "minutes"),
+                          help="Average study start to completion among processed studies, including errors.")
+                st.caption(f"Based on {selected['ai_processed_studies']} processed studies")
+        else:
+            st.caption("Select an algorithm for its timing cards, or compare all algorithms below.")
+
+        st.markdown("**Compare algorithms at this site**")
+        # Retain the comparison table when a product is selected, so users can
+        # see its context without repeatedly changing the dropdown.
+        algorithm_data = pd.DataFrame(algorithm_rows).sort_values("algorithm_name").rename(columns={
             "algorithm_vendor": "Vendor", "algorithm_name": "Algorithm",
             "ai_processed_studies": "Processed studies",
             "successful_results": "Successful results", "ai_errors": "AI errors",
