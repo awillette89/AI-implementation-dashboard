@@ -58,8 +58,8 @@ their own policies.
 If the deployment URL changes, replace the `STREAMLIT_APP_URL` value in that
 workflow. Commit and push the workflow, then open the repository's **Actions**
 tab. Choose **Keep Streamlit app awake**, select **Run workflow**, and confirm
-its log says the request received HTTP 200. Scheduled checks then run every six
-hours.
+its log says the request received HTTP 200 or a redirect such as HTTP 303.
+Scheduled checks then run every six hours.
 
 The repository includes a small synthetic CSV and a ready-to-read SQLite
 snapshot. Loading the CSV rebuilds that snapshot; it does not generate new
