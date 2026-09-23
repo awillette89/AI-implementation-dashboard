@@ -1,0 +1,24 @@
+name: Keep Streamlit app awake
+
+on:
+  # GitHub may delay scheduled jobs, so this is a best-effort check every six hours.
+  schedule:
+    - cron: "17 */6 * * *"
+  # This button also lets you test the request immediately from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  request-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Request the public Streamlit app
+        env:
+          # Change this address if a future Streamlit deployment has a new URL.
+          STREAMLIT_APP_URL: https://ai-implementation-dashboard-eucpbf8ykmufmdviwkendd.streamlit.app/
+        run: python scripts/keep_streamlit_awake.py

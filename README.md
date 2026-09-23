@@ -47,6 +47,20 @@ Restart Streamlit after changing imported Python functions if refresh alone
 does not pick up the changes. Streamlit 1.55+ is required for checkbox-free cell
 selection; `requirements.txt` declares this dependency.
 
+## Keep the hosted demo active
+
+The GitHub Actions workflow in `.github/workflows/keep-streamlit-awake.yml`
+requests the public dashboard every six hours. It is already configured for the
+current public demo URL. This is a best-effort way to reduce cold starts on a
+hosted demo; hosting providers can still pause or delay an app according to
+their own policies.
+
+If the deployment URL changes, replace the `STREAMLIT_APP_URL` value in that
+workflow. Commit and push the workflow, then open the repository's **Actions**
+tab. Choose **Keep Streamlit app awake**, select **Run workflow**, and confirm
+its log says the request received HTTP 200. Scheduled checks then run every six
+hours.
+
 The repository includes a small synthetic CSV and a ready-to-read SQLite
 snapshot. Loading the CSV rebuilds that snapshot; it does not generate new
 studies. Dashboard queries open SQLite read-only and pass site selections as SQL
